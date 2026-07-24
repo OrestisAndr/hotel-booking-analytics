@@ -1,0 +1,15 @@
+# Power BI temporary files
+*.pbix.tmp
+*.tmp
+~$*
+.pbi/
+*.abf
+
+# macOS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
