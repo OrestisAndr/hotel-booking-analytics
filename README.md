@@ -245,7 +245,7 @@ Dataset by Nuno Antonio, Ana de Almeida and Luis Nunes, published to Kaggle by J
 
 ## Author
 
-**Orestis [SURNAME]**
-[LinkedIn](https://www.linkedin.com/in/YOUR-HANDLE) · orestis.androul@gmail.com
+**Orestis Androulakis**
+[LinkedIn](https://www.linkedin.com/in/orestis-androulakis/) · or.androulakis@icloud.com
 
 If you spot something that could be modelled better, open an issue — I would rather be corrected than consistent.
