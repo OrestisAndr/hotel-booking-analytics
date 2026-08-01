@@ -1,0 +1,1001 @@
+hotel,arrival_date,market_segment,country,lead_time,nights,adr,booking_value,cancel_probability,expected_loss,deposit_type,customer_type
+City Hotel,2017-04-01,Online TA,THA,22,6,230.0,1380.0,1.0,1380.0,No Deposit,Transient
+City Hotel,2017-04-01,Online TA,BRA,208,14,99.0,1386.0,0.890173,1233.779778,No Deposit,Transient
+City Hotel,2017-04-01,Online TA,FRA,9,6,224.0,1344.0,0.835196,1122.503424,No Deposit,Transient
+City Hotel,2017-04-01,Online TA,CHE,68,7,162.0,1134.0,0.835196,947.1122640000001,No Deposit,Transient
+City Hotel,2017-04-01,Online TA,GBR,33,4,230.0,920.0,0.947977,872.13884,No Deposit,Transient
+City Hotel,2017-04-03,Online TA,URY,132,11,117.82,1296.02,0.973934,1262.2379426799998,No Deposit,Transient
+City Hotel,2017-04-03,Online TA,FRA,57,5,277.0,1385.0,0.77176,1068.8876,No Deposit,Transient
+City Hotel,2017-04-03,Direct,AGO,1,16,150.0,2400.0,0.333333,799.9992,No Deposit,Transient
+City Hotel,2017-04-03,Online TA,GBR,296,6,193.5,1161.0,0.680154,789.6587940000001,No Deposit,Transient
+City Hotel,2017-04-04,Online TA,BRA,76,16,194.06,3104.96,0.680154,2111.85096384,No Deposit,Transient
+City Hotel,2017-04-04,Online TA,CIV,34,7,178.0,1246.0,0.973934,1213.5217639999998,No Deposit,Transient
+City Hotel,2017-04-04,Online TA,SVN,44,5,169.2,846.0,0.973934,823.948164,No Deposit,Transient
+City Hotel,2017-04-05,Online TA,FRA,33,6,220.0,1320.0,0.77176,1018.7232,No Deposit,Transient
+Resort Hotel,2017-04-07,Online TA,GBR,84,6,193.0,1158.0,0.806452,933.871416,No Deposit,Transient
+Resort Hotel,2017-04-08,Online TA,PRT,86,7,195.86,1371.02,0.924051,1266.89240202,No Deposit,Transient
+Resort Hotel,2017-04-08,Online TA,ESP,187,7,198.0,1386.0,0.864865,1198.70289,No Deposit,Transient
+City Hotel,2017-04-08,Online TA,USA,111,8,136.13,1089.04,0.947977,1032.38487208,No Deposit,Transient
+City Hotel,2017-04-08,Online TA,DEU,109,7,169.07,1183.49,0.77176,913.3702424,No Deposit,Transient
+City Hotel,2017-04-08,Online TA,FRA,88,5,220.5,1102.5,0.77176,850.8654,No Deposit,Transient
+City Hotel,2017-04-08,Online TA,PRT,129,5,168.0,840.0,0.947977,796.3006799999999,No Deposit,Transient
+Resort Hotel,2017-04-09,Online TA,DEU,97,14,187.64,2626.96,0.636364,1671.70277344,No Deposit,Transient
+Resort Hotel,2017-04-09,Groups,PRT,124,14,120.0,1680.0,0.924051,1552.4056799999998,No Deposit,Contract
+Resort Hotel,2017-04-09,Groups,PRT,124,14,80.0,1120.0,0.924051,1034.93712,No Deposit,Contract
+Resort Hotel,2017-04-09,Groups,PRT,124,7,120.0,840.0,1.0,840.0,Non Refund,Transient
+City Hotel,2017-04-11,Online TA,BRA,162,7,155.06,1085.42,0.973934,1057.12744228,No Deposit,Transient
+City Hotel,2017-04-12,Online TA,LBN,41,6,187.0,1122.0,0.973934,1092.753948,No Deposit,Transient
+City Hotel,2017-04-12,Online TA,ITA,178,5,189.0,945.0,0.947977,895.838265,No Deposit,Transient
+City Hotel,2017-04-12,Online TA,BRA,308,8,109.8,878.4,0.973934,855.5036256,No Deposit,Transient
+City Hotel,2017-04-13,Online TA,USA,257,8,201.66,1613.28,0.680154,1097.2788451200001,No Deposit,Transient
+Resort Hotel,2017-04-15,Offline TA/TO,PRT,86,7,203.21,1422.47,0.737968,1049.73734096,No Deposit,Transient
+City Hotel,2017-04-16,Online TA,ISR,220,7,168.0,1176.0,0.95542,1123.57392,No Deposit,Transient
+Resort Hotel,2017-04-16,Online TA,GBR,87,7,178.0,1246.0,0.737968,919.5081279999999,No Deposit,Transient
+City Hotel,2017-04-16,Online TA,ISR,302,7,183.0,1281.0,0.680154,871.277274,No Deposit,Transient
+Resort Hotel,2017-04-18,Online TA,ESP,24,5,223.0,1115.0,0.737968,822.8343199999999,No Deposit,Transient
+Resort Hotel,2017-04-19,Online TA,BRA,168,8,192.5,1540.0,0.737968,1136.47072,No Deposit,Transient
+City Hotel,2017-04-19,Online TA,BRA,313,8,109.8,878.4,0.973934,855.5036256,No Deposit,Transient
+City Hotel,2017-04-21,Online TA,EST,65,8,196.2,1569.6,0.973934,1528.6868063999998,No Deposit,Transient
+City Hotel,2017-04-21,Online TA,EST,93,8,184.5,1476.0,0.77176,1139.11776,No Deposit,Transient
+City Hotel,2017-04-21,Online TA,GBR,39,7,147.86,1035.02,0.77176,798.7870352,No Deposit,Transient
+City Hotel,2017-04-22,Online TA,FRA,59,7,198.0,1386.0,0.835196,1157.581656,No Deposit,Transient
+Resort Hotel,2017-04-22,Groups,PRT,239,7,158.0,1106.0,0.924051,1022.000406,No Deposit,Transient-Party
+Resort Hotel,2017-04-22,Groups,PRT,239,7,158.0,1106.0,0.924051,1022.000406,No Deposit,Transient-Party
+Resort Hotel,2017-04-22,Groups,PRT,239,7,158.0,1106.0,0.924051,1022.000406,No Deposit,Transient-Party
+Resort Hotel,2017-04-22,Groups,PRT,239,7,158.0,1106.0,0.924051,1022.000406,No Deposit,Transient-Party
+Resort Hotel,2017-04-22,Groups,PRT,239,7,158.0,1106.0,0.924051,1022.000406,No Deposit,Transient-Party
+City Hotel,2017-04-22,Online TA,ITA,58,4,230.0,920.0,0.890173,818.95916,No Deposit,Transient
+City Hotel,2017-04-22,Online TA,ITA,58,4,230.0,920.0,0.890173,818.95916,No Deposit,Transient
+City Hotel,2017-04-23,Online TA,GBR,35,4,224.0,896.0,0.972414,871.282944,No Deposit,Transient
+City Hotel,2017-04-24,Online TA,FRA,28,5,224.0,1120.0,0.77176,864.3712,No Deposit,Transient
+City Hotel,2017-04-24,Online TA,MAR,28,4,224.0,896.0,0.947977,849.387392,No Deposit,Transient
+City Hotel,2017-04-24,Online TA,BRA,66,5,171.0,855.0,0.973934,832.71357,No Deposit,Transient
+City Hotel,2017-04-25,Direct,BGD,6,7,259.29,1815.03,0.542254,984.20727762,No Deposit,Transient
+City Hotel,2017-04-29,Online TA,RUS,165,7,130.5,913.5,0.973934,889.688709,No Deposit,Transient
+City Hotel,2017-04-30,Online TA,AGO,25,12,150.42,1805.04,1.0,1805.04,No Deposit,Transient
+Resort Hotel,2017-04-30,Online TA,PRT,190,14,117.0,1638.0,0.924051,1513.595538,No Deposit,Transient
+City Hotel,2017-05-01,Online TA,AGO,28,14,266.43,3730.02,1.0,3730.02,No Deposit,Transient
+City Hotel,2017-05-01,Corporate,PRT,12,14,130.0,1820.0,0.62963,1145.9266,No Deposit,Transient
+City Hotel,2017-05-01,Online TA,PRT,57,6,212.8,1276.8,0.848606,1083.5001407999998,No Deposit,Transient
+Resort Hotel,2017-05-01,Online TA,GBR,37,5,213.0,1065.0,0.809524,862.14306,No Deposit,Transient
+City Hotel,2017-05-02,Online TA,FRA,114,12,129.0,1548.0,0.773179,1196.8810919999999,No Deposit,Transient
+City Hotel,2017-05-02,Online TA,BRA,117,13,110.77,1440.01,0.792793,1141.6298479299999,No Deposit,Transient
+Resort Hotel,2017-05-03,Groups,PRT,65,12,125.0,1500.0,1.0,1500.0,Non Refund,Transient
+Resort Hotel,2017-05-03,Groups,PRT,65,12,125.0,1500.0,1.0,1500.0,Non Refund,Transient
+Resort Hotel,2017-05-03,Groups,PRT,65,12,125.0,1500.0,1.0,1500.0,Non Refund,Transient
+Resort Hotel,2017-05-03,Groups,PRT,65,12,125.0,1500.0,1.0,1500.0,Non Refund,Transient
+Resort Hotel,2017-05-03,Groups,PRT,65,12,95.0,1140.0,1.0,1140.0,Non Refund,Transient
+Resort Hotel,2017-05-03,Groups,PRT,65,12,95.0,1140.0,1.0,1140.0,Non Refund,Transient
+Resort Hotel,2017-05-03,Groups,PRT,65,12,95.0,1140.0,1.0,1140.0,Non Refund,Transient
+Resort Hotel,2017-05-03,Groups,PRT,65,12,95.0,1140.0,1.0,1140.0,Non Refund,Transient
+City Hotel,2017-05-03,Online TA,CZE,59,4,307.0,1228.0,0.773179,949.463812,No Deposit,Transient
+Resort Hotel,2017-05-04,Online TA,PRT,194,14,139.51,1953.14,0.733591,1432.80592574,No Deposit,Transient
+City Hotel,2017-05-04,Online TA,AGO,28,6,152.33,913.98,0.936396,855.8472160800001,No Deposit,Transient
+City Hotel,2017-05-04,Online TA,CHN,49,7,120.69,844.83,0.953488,805.53526704,No Deposit,Transient
+City Hotel,2017-05-05,Online TA,RUS,56,8,132.25,1058.0,0.953488,1008.790304,No Deposit,Transient
+Resort Hotel,2017-05-05,Online TA,GBR,330,18,75.0,1350.0,0.672515,907.8952499999999,No Deposit,Transient
+City Hotel,2017-05-06,Online TA,NOR,32,7,267.86,1875.02,0.669021,1254.42775542,No Deposit,Transient
+City Hotel,2017-05-06,Online TA,BRA,167,7,174.21,1219.47,0.936396,1141.90683012,No Deposit,Transient
+City Hotel,2017-05-06,Online TA,DEU,91,7,164.57,1151.99,0.773179,890.69447621,No Deposit,Transient
+City Hotel,2017-05-06,Online TA,DEU,99,8,139.5,1116.0,0.773179,862.867764,No Deposit,Transient
+City Hotel,2017-05-06,Online TA,DEU,99,8,139.5,1116.0,0.773179,862.867764,No Deposit,Transient
+Resort Hotel,2017-05-06,Online TA,BRA,86,10,155.0,1550.0,0.537791,833.57605,No Deposit,Transient
+City Hotel,2017-05-06,Online TA,DEU,91,7,164.57,1151.99,0.700855,807.3779514500001,No Deposit,Transient
+City Hotel,2017-05-07,Online TA,GBR,105,6,223.33,1339.98,0.870968,1167.07970064,No Deposit,Transient
+City Hotel,2017-05-07,Online TA,THA,32,5,225.2,1126.0,0.936396,1054.381896,No Deposit,Transient
+City Hotel,2017-05-07,Online TA,PRT,12,10,144.8,1448.0,0.565657,819.071336,No Deposit,Transient
+City Hotel,2017-05-08,Online TA,AGO,50,6,274.5,1647.0,0.953488,1570.394736,No Deposit,Transient
+City Hotel,2017-05-08,Offline TA/TO,PRT,62,7,228.21,1597.47,0.584615,933.90492405,No Deposit,Transient
+City Hotel,2017-05-08,Offline TA/TO,PRT,62,7,228.21,1597.47,0.584615,933.90492405,No Deposit,Transient
+City Hotel,2017-05-08,Offline TA/TO,PRT,62,7,228.21,1597.47,0.584615,933.90492405,No Deposit,Transient
+City Hotel,2017-05-10,Online TA,PRT,18,11,294.55,3240.05,0.565657,1832.75696285,No Deposit,Transient
+City Hotel,2017-05-10,Online TA,CHN,22,9,204.0,1836.0,0.953488,1750.603968,No Deposit,Transient
+City Hotel,2017-05-10,Online TA,CHN,19,9,201.0,1809.0,0.953488,1724.859792,No Deposit,Transient
+City Hotel,2017-05-10,Online TA,FRA,22,8,186.25,1490.0,0.773179,1152.0367099999999,No Deposit,Transient
+City Hotel,2017-05-10,Online TA,AGO,16,7,181.43,1270.01,0.817204,1037.85725204,No Deposit,Transient
+Resort Hotel,2017-05-10,Online TA,PRT,93,14,88.2,1234.8,0.751113,927.4743324,No Deposit,Transient
+City Hotel,2017-05-12,Direct,AGO,21,9,290.56,2615.04,0.936396,2448.71299584,No Deposit,Transient
+City Hotel,2017-05-12,Online TA,PRT,38,9,321.94,2897.46,0.486726,1410.26911596,No Deposit,Transient
+City Hotel,2017-05-12,Online TA,PRT,38,9,244.86,2203.74,0.536481,1182.26463894,No Deposit,Transient
+City Hotel,2017-05-12,Online TA,BRA,19,5,262.0,1310.0,0.848606,1111.6738599999999,No Deposit,Transient
+City Hotel,2017-05-13,Online TA,FRA,82,7,242.86,1700.02,0.773179,1314.4197635799999,No Deposit,Transient
+City Hotel,2017-05-13,Online TA,ITA,8,5,254.0,1270.0,0.773179,981.93733,No Deposit,Transient
+City Hotel,2017-05-13,Online TA,DEU,83,7,146.57,1025.99,0.773179,793.2739222099999,No Deposit,Transient
+City Hotel,2017-05-14,Online TA,BRA,70,6,192.0,1152.0,0.936396,1078.728192,No Deposit,Transient
+City Hotel,2017-05-14,Online TA,BRA,98,8,121.88,975.04,0.953488,929.68893952,No Deposit,Transient
+City Hotel,2017-05-15,Online TA,BEL,101,10,120.6,1206.0,0.773179,932.4538739999999,No Deposit,Transient
+City Hotel,2017-05-15,Online TA,CHN,19,4,216.0,864.0,0.953488,823.813632,No Deposit,Transient
+City Hotel,2017-05-16,Online TA,EGY,57,8,144.0,1152.0,0.936396,1078.728192,No Deposit,Transient
+City Hotel,2017-05-16,Online TA,PRT,12,7,175.71,1229.97,0.669021,822.87575937,No Deposit,Transient
+City Hotel,2017-05-16,Online TA,PRT,12,7,175.71,1229.97,0.669021,822.87575937,No Deposit,Transient
+Resort Hotel,2017-05-16,Online TA,IRL,72,7,173.0,1211.0,0.672515,814.415665,No Deposit,Transient
+City Hotel,2017-05-18,Online TA,SWE,226,14,118.29,1656.06,0.792793,1312.91277558,No Deposit,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+City Hotel,2017-05-19,Groups,PRT,165,4,225.0,900.0,1.0,900.0,Non Refund,Transient
+Resort Hotel,2017-05-19,Online TA,PRT,98,8,123.0,984.0,0.846154,832.6155359999999,No Deposit,Transient
+Resort Hotel,2017-05-20,Online TA,GBR,61,7,213.0,1491.0,0.873239,1301.999349,No Deposit,Transient
+City Hotel,2017-05-20,Online TA,FRA,183,7,175.11,1225.77,0.792793,971.7818756099999,No Deposit,Transient
+City Hotel,2017-05-20,Online TA,DNK,210,6,197.1,1182.6,0.773179,914.3614853999999,No Deposit,Transient
+City Hotel,2017-05-20,Online TA,DNK,210,6,197.1,1182.6,0.773179,914.3614853999999,No Deposit,Transient
+City Hotel,2017-05-20,Online TA,CHN,49,4,243.0,972.0,0.936396,910.176912,No Deposit,Transient
+Resort Hotel,2017-05-21,Online TA,ITA,249,10,195.4,1954.0,0.782609,1529.217986,No Deposit,Transient
+Resort Hotel,2017-05-22,Online TA,GBR,40,7,183.57,1284.99,0.733591,942.65709909,No Deposit,Transient
+City Hotel,2017-05-24,Online TA,PRT,73,4,317.5,1270.0,0.792793,1006.8471099999999,No Deposit,Transient
+City Hotel,2017-05-24,Online TA,PRT,61,4,266.96,1067.84,0.848606,906.1754310399999,No Deposit,Transient
+Resort Hotel,2017-05-27,Online TA,GBR,230,8,161.5,1292.0,0.672515,868.88938,No Deposit,Transient
+Resort Hotel,2017-05-28,Online TA,GBR,140,8,215.5,1724.0,0.873239,1505.464036,No Deposit,Transient
+Resort Hotel,2017-05-28,Online TA,BEL,132,10,160.0,1600.0,0.537791,860.4656,No Deposit,Transient
+City Hotel,2017-05-28,Online TA,BRA,87,5,189.0,945.0,0.870968,823.06476,No Deposit,Transient
+Resort Hotel,2017-05-29,Online TA,PRT,72,9,158.33,1424.97,0.8,1139.976,Refundable,Transient
+Resort Hotel,2017-05-29,Online TA,DEU,97,6,225.5,1353.0,0.672515,909.912795,No Deposit,Transient
+City Hotel,2017-05-30,Online TA,FRA,70,5,258.0,1290.0,0.773179,997.40091,No Deposit,Transient
+City Hotel,2017-06-01,Direct,ARE,24,14,143.57,2009.98,0.744681,1496.7939163800002,No Deposit,Transient
+Resort Hotel,2017-06-01,Online TA,GBR,321,14,143.0,2002.0,0.58209,1165.34418,No Deposit,Transient
+Resort Hotel,2017-06-02,Online TA,GBR,248,14,207.0,2898.0,0.76873,2227.77954,No Deposit,Transient
+Resort Hotel,2017-06-02,Online TA,LUX,132,14,172.0,2408.0,0.579439,1395.2891120000002,No Deposit,Transient
+Resort Hotel,2017-06-02,Online TA,KAZ,43,10,223.0,2230.0,0.58209,1298.0607,No Deposit,Transient
+Resort Hotel,2017-06-02,Online TA,PRT,278,8,135.9,1087.2,0.846535,920.3528520000001,No Deposit,Transient
+Resort Hotel,2017-06-03,Online TA,GBR,244,14,212.0,2968.0,0.710744,2109.4881920000003,No Deposit,Transient
+Resort Hotel,2017-06-03,Online TA,SWE,79,10,258.0,2580.0,0.76873,1983.3234,No Deposit,Transient
+Resort Hotel,2017-06-03,Online TA,PRT,141,8,170.0,1360.0,0.710744,966.61184,No Deposit,Transient
+Resort Hotel,2017-06-03,Online TA,PRT,141,8,170.0,1360.0,0.710744,966.61184,No Deposit,Transient
+Resort Hotel,2017-06-03,Offline TA/TO,PRT,219,10,98.4,984.0,0.846535,832.99044,No Deposit,Contract
+City Hotel,2017-06-04,Online TA,BRA,82,7,189.0,1323.0,0.914894,1210.404762,No Deposit,Transient
+Resort Hotel,2017-06-05,Offline TA/TO,PRT,222,14,102.85,1439.9,0.846535,1218.9257465,No Deposit,Contract
+City Hotel,2017-06-05,Online TA,POL,76,5,250.0,1250.0,0.772947,966.18375,No Deposit,Transient
+City Hotel,2017-06-05,Online TA,DEU,83,9,153.0,1377.0,0.6875,946.6875,No Deposit,Transient
+Resort Hotel,2017-06-05,Online TA,BEL,42,7,230.0,1610.0,0.58209,937.1649,No Deposit,Transient
+City Hotel,2017-06-05,Online TA,BEL,154,10,126.0,1260.0,0.6875,866.25,No Deposit,Transient
+Resort Hotel,2017-06-06,Online TA,PRT,257,21,93.6,1965.6,0.893939,1757.1264984,No Deposit,Transient
+Resort Hotel,2017-06-06,Offline TA/TO,PRT,223,21,93.5,1963.5,0.893939,1755.2492265,No Deposit,Contract
+City Hotel,2017-06-06,Online TA,BRA,307,10,193.5,1935.0,0.772947,1495.6524450000002,No Deposit,Transient
+City Hotel,2017-06-07,Online TA,FRA,96,7,178.2,1247.4,0.744681,928.9150794000001,No Deposit,Transient
+Resort Hotel,2017-06-08,Offline TA/TO,PRT,288,14,78.4,1097.6,0.846535,929.1568159999999,No Deposit,Transient
+Resort Hotel,2017-06-08,Online TA,IRL,197,8,180.0,1440.0,0.585185,842.6664,No Deposit,Transient
+Resort Hotel,2017-06-09,Online TA,PRT,98,6,184.16,1104.96,0.849339,938.4856214399999,No Deposit,Transient
+City Hotel,2017-06-09,Online TA,DEU,44,10,225.0,2250.0,0.414027,931.56075,No Deposit,Transient
+Resort Hotel,2017-06-09,Online TA,PRT,76,6,160.0,960.0,0.846535,812.6736000000001,No Deposit,Transient
+Resort Hotel,2017-06-10,Online TA,PRT,155,6,233.0,1398.0,0.846535,1183.45593,No Deposit,Transient
+Resort Hotel,2017-06-10,Online TA,PRT,236,11,113.68,1250.48,0.846535,1058.5750868,No Deposit,Transient-Party
+Resort Hotel,2017-06-10,Online TA,PRT,118,7,196.0,1372.0,0.76873,1054.69756,No Deposit,Transient
+Resort Hotel,2017-06-10,Online TA,PRT,58,7,177.71,1243.97,0.846535,1053.06414395,No Deposit,Transient
+City Hotel,2017-06-10,Online TA,ESP,101,7,184.63,1292.41,0.772947,998.9644322700001,No Deposit,Transient
+Resort Hotel,2017-06-10,Online TA,GBR,131,7,180.0,1260.0,0.76873,968.5998000000001,No Deposit,Transient
+Resort Hotel,2017-06-10,Online TA,IRL,306,14,107.1,1499.4,0.579439,868.8108366000001,No Deposit,Transient-Party
+Resort Hotel,2017-06-10,Online TA,IRL,306,14,107.1,1499.4,0.579439,868.8108366000001,No Deposit,Transient-Party
+City Hotel,2017-06-11,Online TA,FRA,40,6,231.5,1389.0,0.744681,1034.361909,No Deposit,Transient
+Resort Hotel,2017-06-11,Offline TA/TO,PRT,41,11,157.5,1732.5,0.585185,1013.8330124999999,No Deposit,Transient
+Resort Hotel,2017-06-11,Online TA,PRT,140,6,172.0,1032.0,0.76873,793.3293600000001,No Deposit,Transient
+Resort Hotel,2017-06-12,Offline TA/TO,PRT,230,14,93.6,1310.4,0.76873,1007.3437920000001,No Deposit,Contract
+Resort Hotel,2017-06-12,Offline TA/TO,PRT,216,14,93.6,1310.4,0.76873,1007.3437920000001,No Deposit,Contract
+City Hotel,2017-06-12,Online TA,BGR,129,7,149.0,1043.0,0.914894,954.234442,No Deposit,Transient
+Resort Hotel,2017-06-12,Offline TA/TO,PRT,271,8,137.7,1101.6,0.76873,846.8329679999999,No Deposit,Transient
+Resort Hotel,2017-06-12,Online TA,DEU,120,6,196.0,1176.0,0.710744,835.8349440000001,No Deposit,Transient
+City Hotel,2017-06-12,Online TA,ISL,133,7,132.43,927.01,0.859155,796.44527655,No Deposit,Transient
+City Hotel,2017-06-12,Online TA,BGR,129,7,132.43,927.01,0.859155,796.44527655,No Deposit,Transient
+Resort Hotel,2017-06-13,Online TA,GBR,91,7,258.0,1806.0,0.76873,1388.32638,No Deposit,Transient
+Resort Hotel,2017-06-13,Offline TA/TO,PRT,50,9,162.0,1458.0,0.76873,1120.80834,No Deposit,Transient
+Resort Hotel,2017-06-14,Offline TA/TO,PRT,292,27,49.95,1348.65,0.893939,1205.6108323500002,No Deposit,Contract
+Resort Hotel,2017-06-14,Offline TA/TO,PRT,218,14,86.7,1213.8,0.76873,933.084474,No Deposit,Contract
+City Hotel,2017-06-15,Online TA,BGD,112,6,225.0,1350.0,0.914894,1235.1069,No Deposit,Transient
+Resort Hotel,2017-06-15,Online TA,DEU,223,9,170.0,1530.0,0.710744,1087.43832,No Deposit,Transient
+Resort Hotel,2017-06-15,Online TA,DEU,223,9,170.0,1530.0,0.710744,1087.43832,No Deposit,Transient
+Resort Hotel,2017-06-15,Online TA,PRT,125,7,196.0,1372.0,0.76873,1054.69756,No Deposit,Transient
+City Hotel,2017-06-15,Online TA,SWE,164,7,160.89,1126.23,0.744681,838.6820826300001,No Deposit,Transient
+City Hotel,2017-06-16,Online TA,AGO,157,14,130.5,1827.0,1.0,1827.0,No Deposit,Transient
+Resort Hotel,2017-06-16,Online TA,PRT,158,7,154.0,1078.0,0.846535,912.56473,No Deposit,Transient
+Resort Hotel,2017-06-16,Direct,PRT,107,8,185.0,1480.0,0.585185,866.0737999999999,No Deposit,Transient
+City Hotel,2017-06-16,Online TA,ITA,67,4,250.0,1000.0,0.839869,839.869,No Deposit,Transient
+Resort Hotel,2017-06-16,Online TA,BRA,36,4,261.0,1044.0,0.76873,802.55412,No Deposit,Transient
+City Hotel,2017-06-17,Online TA,FRA,89,7,250.0,1750.0,0.744681,1303.19175,No Deposit,Transient
+City Hotel,2017-06-17,Online TA,ROU,48,7,250.0,1750.0,0.659122,1153.4635,No Deposit,Transient
+City Hotel,2017-06-17,Online TA,AGO,10,7,218.0,1526.0,0.744681,1136.383206,No Deposit,Transient
+Resort Hotel,2017-06-17,Offline TA/TO,PRT,326,14,86.7,1213.8,0.846535,1027.524183,No Deposit,Transient
+Resort Hotel,2017-06-17,Offline TA/TO,PRT,326,14,86.7,1213.8,0.846535,1027.524183,No Deposit,Transient
+Resort Hotel,2017-06-17,Direct,PRT,136,8,213.71,1709.68,0.575758,984.36193744,No Deposit,Transient
+City Hotel,2017-06-17,Online TA,MAR,191,12,130.5,1566.0,0.594595,931.13577,No Deposit,Transient
+City Hotel,2017-06-17,Online TA,CHE,93,7,178.2,1247.4,0.744681,928.9150794000001,No Deposit,Transient
+Resort Hotel,2017-06-17,Online TA,PRT,155,6,180.0,1080.0,0.846535,914.2578000000001,No Deposit,Transient
+Resort Hotel,2017-06-17,Offline TA/TO,PRT,277,10,98.4,984.0,0.893939,879.635976,No Deposit,Contract
+Resort Hotel,2017-06-17,Online TA,IRL,112,7,158.0,1106.0,0.76873,850.21538,No Deposit,Transient
+Resort Hotel,2017-06-17,Online TA,ITA,23,8,142.5,1140.0,0.710744,810.2481600000001,No Deposit,Transient
+Resort Hotel,2017-06-18,Online TA,IRL,45,6,203.67,1222.02,0.846535,1034.4827007000001,No Deposit,Transient
+City Hotel,2017-06-18,Online TA,PRT,34,8,161.5,1292.0,0.744681,962.1278520000001,No Deposit,Transient
+Resort Hotel,2017-06-18,Offline TA/TO,PRT,285,21,49.95,1048.95,0.846535,887.9728882500001,No Deposit,Contract
+Resort Hotel,2017-06-19,Online TA,RUS,166,9,228.0,2052.0,0.846535,1737.0898200000001,No Deposit,Transient
+Resort Hotel,2017-06-19,Online TA,PRT,98,5,258.0,1290.0,0.846535,1092.03015,No Deposit,Transient
+City Hotel,2017-06-19,Online TA,NLD,167,6,189.0,1134.0,0.744681,844.468254,No Deposit,Transient
+City Hotel,2017-06-19,Direct,AGO,34,5,191.0,955.0,0.875,835.625,No Deposit,Transient
+City Hotel,2017-06-20,Direct,IRN,19,13,277.15,3602.95,0.659122,2374.7836098999996,No Deposit,Transient
+City Hotel,2017-06-20,Direct,IRN,18,10,276.9,2769.0,0.594595,1646.433555,No Deposit,Transient
+Resort Hotel,2017-06-20,Online TA,NGA,78,6,228.0,1368.0,0.846535,1158.05988,No Deposit,Transient
+Resort Hotel,2017-06-20,Online TA,DEU,213,10,180.0,1800.0,0.585185,1053.3329999999999,No Deposit,Transient
+Resort Hotel,2017-06-21,Offline TA/TO,PRT,181,19,117.45,2231.55,0.76873,1715.4594315000002,No Deposit,Transient
+City Hotel,2017-06-21,Online TA,POL,164,8,246.38,1971.04,0.772947,1523.50945488,No Deposit,Transient
+City Hotel,2017-06-22,Online TA,FIN,109,7,162.0,1134.0,0.744681,844.468254,No Deposit,Transient
+Resort Hotel,2017-06-23,Online TA,PRT,236,14,138.0,1932.0,0.846535,1635.5056200000001,No Deposit,Transient
+Resort Hotel,2017-06-23,Online TA,POL,205,9,180.0,1620.0,0.58209,942.9858,No Deposit,Transient
+City Hotel,2017-06-23,Online TA,PRT,324,6,239.1,1434.6,0.594595,853.0059869999999,No Deposit,Transient
+City Hotel,2017-06-23,Online TA,DEU,159,6,189.0,1134.0,0.744681,844.468254,No Deposit,Transient
+Resort Hotel,2017-06-24,Online TA,SVK,119,7,238.0,1666.0,0.76873,1280.70418,No Deposit,Transient
+Resort Hotel,2017-06-24,Online TA,ITA,243,14,126.0,1764.0,0.710744,1253.752416,No Deposit,Transient
+Resort Hotel,2017-06-24,Online TA,IRL,119,7,190.0,1330.0,0.76873,1022.4109000000001,No Deposit,Transient
+Resort Hotel,2017-06-24,Online TA,PRT,314,7,161.0,1127.0,0.893939,1007.4692530000001,No Deposit,Transient
+City Hotel,2017-06-24,Online TA,DNK,265,12,114.08,1368.96,0.6875,941.1600000000001,No Deposit,Transient
+City Hotel,2017-06-24,Online TA,DNK,265,12,116.93,1403.16,0.659122,924.85362552,No Deposit,Transient
+City Hotel,2017-06-24,Online TA,PRT,265,12,112.87,1354.44,0.659122,892.74120168,No Deposit,Transient
+City Hotel,2017-06-24,Online TA,PRT,265,12,112.87,1354.44,0.659122,892.74120168,No Deposit,Transient
+Resort Hotel,2017-06-24,Online TA,PRT,86,7,140.0,980.0,0.846535,829.6043000000001,No Deposit,Transient
+City Hotel,2017-06-24,Online TA,FRA,136,5,220.0,1100.0,0.744681,819.1491000000001,No Deposit,Transient
+Resort Hotel,2017-06-24,Offline TA/TO,PRT,241,10,105.66,1056.6,0.76873,812.2401179999999,No Deposit,Contract
+Resort Hotel,2017-06-25,Online TA,GBR,342,7,265.0,1855.0,0.710744,1318.43012,No Deposit,Transient
+Resort Hotel,2017-06-25,Online TA,ESP,113,6,248.0,1488.0,0.846535,1259.64408,No Deposit,Transient
+Resort Hotel,2017-06-25,Online TA,GBR,342,7,260.0,1820.0,0.585185,1065.0366999999999,No Deposit,Transient
+City Hotel,2017-06-25,Online TA,DNK,172,11,126.0,1386.0,0.744681,1032.127866,No Deposit,Transient
+Resort Hotel,2017-06-25,Offline TA/TO,PRT,270,14,84.7,1185.8,0.710744,842.8002352,No Deposit,Transient
+Resort Hotel,2017-06-25,Corporate,PRT,47,10,93.0,930.0,0.893939,831.36327,No Deposit,Transient
+Resort Hotel,2017-06-25,Online TA,PRT,171,5,216.0,1080.0,0.76873,830.2284000000001,No Deposit,Transient
+Resort Hotel,2017-06-25,Direct,PRT,159,7,200.0,1400.0,0.585185,819.2589999999999,No Deposit,Transient-Party
+City Hotel,2017-06-26,Direct,BRA,31,10,273.7,2737.0,0.444265,1215.953305,No Deposit,Transient
+Resort Hotel,2017-06-26,Direct,PRT,205,13,111.0,1443.0,0.76873,1109.27739,No Deposit,Transient
+Resort Hotel,2017-06-26,Online TA,GBR,188,14,110.0,1540.0,0.710744,1094.54576,No Deposit,Transient
+Resort Hotel,2017-06-26,Online TA,PRT,165,7,140.0,980.0,0.846535,829.6043000000001,No Deposit,Transient
+Resort Hotel,2017-06-26,Online TA,PRT,119,5,206.0,1030.0,0.76873,791.7919,No Deposit,Transient
+City Hotel,2017-06-26,Online TA,ESP,104,6,169.2,1015.2,0.777778,789.6002256,No Deposit,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,214,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+City Hotel,2017-06-27,Groups,PRT,141,7,130.0,910.0,1.0,910.0,Non Refund,Transient
+Resort Hotel,2017-06-27,Direct,PRT,172,10,110.94,1109.4,0.76873,852.8290620000001,No Deposit,Transient
+Resort Hotel,2017-06-27,Online TA,GBR,218,10,140.0,1400.0,0.585185,819.2589999999999,No Deposit,Transient
+Resort Hotel,2017-06-28,Online TA,PRT,282,14,160.17,2242.38,0.893939,2004.5509348200003,No Deposit,Transient
+Resort Hotel,2017-06-28,Online TA,PRT,154,9,196.0,1764.0,0.846535,1493.28774,No Deposit,Transient
+Resort Hotel,2017-06-28,Online TA,PRT,192,14,108.56,1519.84,0.846535,1286.5977544,No Deposit,Transient
+Resort Hotel,2017-06-28,Online TA,PRT,178,10,106.56,1065.6,0.893939,952.5813984,No Deposit,Transient
+City Hotel,2017-06-28,Online TA,ROU,164,8,157.61,1260.88,0.659122,831.0737473600001,No Deposit,Transient
+City Hotel,2017-06-29,Online TA,FRA,213,5,234.36,1171.8,0.744681,872.6171958,No Deposit,Transient
+City Hotel,2017-06-29,Online TA,FRA,158,7,154.93,1084.51,0.744681,807.6139913100001,No Deposit,Transient
+Resort Hotel,2017-06-30,Online TA,PRT,162,6,180.0,1080.0,0.809524,874.28592,No Deposit,Transient
+Resort Hotel,2017-06-30,Online TA,PRT,122,6,176.67,1060.02,0.76873,814.8691746000001,No Deposit,Transient
+City Hotel,2017-06-30,Online TA,DEU,153,7,153.51,1074.57,0.744681,800.21186217,No Deposit,Transient
+City Hotel,2017-06-30,Online TA,BEL,307,10,120.69,1206.9,0.659122,795.4943418,No Deposit,Transient
+Resort Hotel,2017-07-01,Online TA,ZAF,80,7,308.0,2156.0,0.753799,1625.190644,No Deposit,Transient
+City Hotel,2017-07-01,Online TA,NOR,257,11,189.18,2080.98,0.75076,1562.3165448,No Deposit,Transient
+Resort Hotel,2017-07-01,Offline TA/TO,PRT,248,14,112.2,1570.8,0.753799,1184.0674692,No Deposit,Contract
+Resort Hotel,2017-07-01,Online TA,PRT,45,7,210.0,1470.0,0.753799,1108.08453,No Deposit,Transient
+Resort Hotel,2017-07-01,Online TA,PRT,146,5,243.0,1215.0,0.865497,1051.578855,No Deposit,Transient
+Resort Hotel,2017-07-01,Direct,PRT,185,7,207.0,1449.0,0.669951,970.7589989999999,No Deposit,Transient
+Resort Hotel,2017-07-01,Online TA,PRT,259,7,158.5,1109.5,0.858974,953.031653,No Deposit,Transient
+Resort Hotel,2017-07-01,Online TA,PRT,184,10,126.0,1260.0,0.753799,949.78674,No Deposit,Transient
+Resort Hotel,2017-07-01,Online TA,PRT,164,7,141.12,987.84,0.858974,848.5288761600001,No Deposit,Transient
+Resort Hotel,2017-07-01,Online TA,PRT,47,5,210.0,1050.0,0.753799,791.48895,No Deposit,Transient
+Resort Hotel,2017-07-02,Online TA,ESP,57,7,300.86,2106.02,0.753799,1587.51576998,No Deposit,Transient
+Resort Hotel,2017-07-02,Online TA,PRT,275,12,162.68,1952.16,0.753799,1471.53625584,No Deposit,Transient
+Resort Hotel,2017-07-02,Online TA,PRT,188,9,203.11,1827.99,0.753799,1377.93703401,No Deposit,Transient
+Resort Hotel,2017-07-02,Corporate,PRT,53,14,120.0,1680.0,0.617424,1037.27232,No Deposit,Transient
+Resort Hotel,2017-07-02,Online TA,PRT,259,7,151.33,1059.31,0.858974,909.91974794,No Deposit,Transient
+City Hotel,2017-07-02,Online TA,GBR,178,7,179.1,1253.7,0.710012,890.1420444,No Deposit,Transient
+City Hotel,2017-07-02,Direct,FRA,237,8,207.0,1656.0,0.535117,886.1537519999999,No Deposit,Transient
+Resort Hotel,2017-07-02,Online TA,BEL,177,7,182.86,1280.02,0.658537,842.94053074,No Deposit,Transient
+Resort Hotel,2017-07-02,Corporate,PRT,53,12,92.0,1104.0,0.753799,832.194096,No Deposit,Transient
+Resort Hotel,2017-07-02,Online TA,PRT,159,7,151.43,1060.01,0.753799,799.03447799,No Deposit,Transient
+Resort Hotel,2017-07-03,Online TA,LUX,277,14,259.86,3638.04,0.669951,2437.30853604,No Deposit,Transient
+Resort Hotel,2017-07-03,Online TA,NOR,347,10,232.0,2320.0,0.753799,1748.81368,No Deposit,Transient
+City Hotel,2017-07-03,Online TA,AGO,160,17,125.1,2126.7,0.75076,1596.6412919999998,No Deposit,Transient
+City Hotel,2017-07-03,Online TA,BEL,153,14,152.1,2129.4,0.683333,1455.0892902,No Deposit,Transient
+Resort Hotel,2017-07-03,Online TA,NOR,268,11,208.73,2296.03,0.617424,1417.62402672,No Deposit,Transient
+Resort Hotel,2017-07-03,Online TA,ROU,150,7,243.71,1705.97,0.753799,1285.95848003,No Deposit,Transient
+Resort Hotel,2017-07-03,Online TA,NOR,269,10,204.7,2047.0,0.617424,1263.866928,No Deposit,Transient
+Resort Hotel,2017-07-03,Online TA,PRT,186,7,238.71,1670.97,0.753799,1259.57551503,No Deposit,Transient
+Resort Hotel,2017-07-03,Online TA,NOR,317,10,184.0,1840.0,0.617424,1136.06016,No Deposit,Transient
+Resort Hotel,2017-07-03,Online TA,NOR,347,10,184.0,1840.0,0.617424,1136.06016,No Deposit,Transient
+City Hotel,2017-07-03,Online TA,GBR,212,10,158.34,1583.4,0.710012,1124.2330008000001,No Deposit,Transient
+Resort Hotel,2017-07-03,Online TA,PRT,300,9,166.92,1502.28,0.658537,989.30696436,No Deposit,Transient
+Resort Hotel,2017-07-03,Online TA,ESP,171,7,185.71,1299.97,0.728643,947.2140407100001,No Deposit,Transient
+Resort Hotel,2017-07-03,Online TA,PRT,102,4,292.0,1168.0,0.753799,880.437232,No Deposit,Transient
+Resort Hotel,2017-07-04,Online TA,IRL,335,14,192.57,2695.98,0.6,1617.588,No Deposit,Transient
+Resort Hotel,2017-07-04,Online TA,PRT,164,10,140.0,1400.0,0.858974,1202.5636,No Deposit,Transient
+Resort Hotel,2017-07-04,Online TA,PRT,131,7,223.57,1564.99,0.753799,1179.68789701,No Deposit,Transient
+Resort Hotel,2017-07-04,Corporate,PRT,55,10,113.0,1130.0,0.858974,970.64062,No Deposit,Transient
+Resort Hotel,2017-07-04,Online TA,ESP,153,5,242.0,1210.0,0.787234,952.55314,No Deposit,Transient
+Resort Hotel,2017-07-04,Online TA,GBR,236,7,199.86,1399.02,0.617424,863.78852448,No Deposit,Transient
+Resort Hotel,2017-07-04,Corporate,PRT,55,10,92.0,920.0,0.858974,790.25608,No Deposit,Transient
+Resort Hotel,2017-07-04,Corporate,PRT,55,10,92.0,920.0,0.858974,790.25608,No Deposit,Transient
+Resort Hotel,2017-07-05,Online TA,CHE,65,10,264.0,2640.0,0.753799,1990.02936,No Deposit,Transient
+Resort Hotel,2017-07-05,Online TA,GBR,168,10,165.6,1656.0,0.728643,1206.632808,No Deposit,Transient
+Resort Hotel,2017-07-05,Online TA,PRT,168,5,241.0,1205.0,0.858974,1035.06367,No Deposit,Transient
+Resort Hotel,2017-07-05,Online TA,IRL,352,7,193.5,1354.5,0.716054,969.895143,No Deposit,Transient
+Resort Hotel,2017-07-06,Online TA,DNK,140,12,188.42,2261.04,0.728643,1647.49096872,No Deposit,Transient
+Resort Hotel,2017-07-06,Online TA,CN,339,14,125.52,1757.28,0.753799,1324.6359067199999,No Deposit,Transient
+Resort Hotel,2017-07-06,Online TA,RUS,131,6,223.33,1339.98,0.858974,1151.00798052,No Deposit,Transient
+Resort Hotel,2017-07-06,Offline TA/TO,PRT,335,14,108.0,1512.0,0.753799,1139.744088,No Deposit,Contract
+City Hotel,2017-07-08,Online TA,ITA,159,13,152.1,1977.3,0.76555,1513.7220149999998,No Deposit,Transient
+Resort Hotel,2017-07-08,Offline TA/TO,PRT,162,9,204.0,1836.0,0.728643,1337.788548,No Deposit,Transient
+Resort Hotel,2017-07-08,Offline TA/TO,PRT,162,9,204.0,1836.0,0.728643,1337.788548,No Deposit,Transient
+City Hotel,2017-07-08,Online TA,ITA,157,14,152.1,2129.4,0.612774,1304.8409556000001,No Deposit,Transient
+Resort Hotel,2017-07-08,Online TA,PRT,186,6,274.67,1648.02,0.787234,1297.37737668,No Deposit,Transient
+Resort Hotel,2017-07-08,Online TA,PRT,109,8,197.5,1580.0,0.753799,1191.00242,No Deposit,Transient
+Resort Hotel,2017-07-08,Online TA,PRT,128,7,238.0,1666.0,0.669951,1116.138366,No Deposit,Transient
+Resort Hotel,2017-07-08,Offline TA/TO,PRT,192,10,129.7,1297.0,0.669951,868.9264469999999,No Deposit,Transient
+City Hotel,2017-07-08,Online TA,FRA,349,10,180.9,1809.0,0.479303,867.059127,No Deposit,Transient
+Resort Hotel,2017-07-09,Online TA,PRT,190,12,146.98,1763.76,0.753799,1329.52052424,No Deposit,Transient
+Resort Hotel,2017-07-09,Online TA,BEL,315,8,242.75,1942.0,0.669951,1301.044842,No Deposit,Transient
+Resort Hotel,2017-07-09,Online TA,IRL,195,7,234.29,1640.03,0.669951,1098.7397385299998,No Deposit,Transient
+Resort Hotel,2017-07-09,Online TA,BEL,229,6,247.33,1483.98,0.669951,994.19388498,No Deposit,Transient
+Resort Hotel,2017-07-09,Direct,PRT,349,6,178.75,1072.5,0.753799,808.4494275,No Deposit,Transient
+Resort Hotel,2017-07-10,Online TA,PRT,162,10,188.0,1880.0,0.753799,1417.14212,No Deposit,Transient
+Resort Hotel,2017-07-10,Online TA,PRT,137,9,186.84,1681.56,0.669951,1126.5628035599998,No Deposit,Transient
+Resort Hotel,2017-07-10,Online TA,PRT,120,7,202.0,1414.0,0.753799,1065.871786,No Deposit,Transient
+City Hotel,2017-07-10,Online TA,FRA,169,7,206.1,1442.7,0.710012,1024.3343124,No Deposit,Transient
+Resort Hotel,2017-07-10,Online TA,PRT,136,7,181.43,1270.01,0.753799,957.33226799,No Deposit,Transient
+Resort Hotel,2017-07-10,Direct,PRT,129,7,222.93,1560.51,0.6,936.3059999999999,No Deposit,Transient
+City Hotel,2017-07-10,Online TA,BRA,233,6,179.1,1074.6,0.84252,905.371992,No Deposit,Transient
+Resort Hotel,2017-07-10,Online TA,BRA,110,7,200.0,1400.0,0.617424,864.3936,No Deposit,Transient
+Resort Hotel,2017-07-10,Online TA,ESP,163,6,182.0,1092.0,0.787234,859.659528,No Deposit,Transient
+Resort Hotel,2017-07-10,Online TA,CHE,217,4,293.0,1172.0,0.714286,837.143192,No Deposit,Transient
+Resort Hotel,2017-07-11,Online TA,NOR,346,14,165.6,2318.4,0.714286,1656.0006624,No Deposit,Transient
+Resort Hotel,2017-07-11,Online TA,ITA,151,7,230.86,1616.02,0.753799,1218.15425998,No Deposit,Transient
+City Hotel,2017-07-11,Online TA,BEL,82,7,220.0,1540.0,0.635739,979.0380600000001,No Deposit,Transient
+Resort Hotel,2017-07-11,Online TA,PRT,131,7,160.71,1124.97,0.753799,848.00126103,No Deposit,Transient
+Resort Hotel,2017-07-12,Online TA,PRT,90,7,224.16,1569.12,0.669951,1051.2335131199998,No Deposit,Transient
+Resort Hotel,2017-07-12,Online TA,GBR,20,5,272.0,1360.0,0.714286,971.42896,No Deposit,Transient
+Resort Hotel,2017-07-12,Online TA,PRT,82,6,220.4,1322.4,0.658537,870.8493288000001,No Deposit,Transient
+Resort Hotel,2017-07-13,Online TA,PRT,161,14,113.14,1583.96,0.753799,1193.98746404,No Deposit,Transient
+Resort Hotel,2017-07-13,Direct,PRT,154,9,203.0,1827.0,0.617424,1128.0336479999999,No Deposit,Transient
+City Hotel,2017-07-13,Online TA,RUS,303,10,184.5,1845.0,0.589474,1087.5795300000002,No Deposit,Transient
+Resort Hotel,2017-07-13,Online TA,PRT,74,7,230.3,1612.1,0.658537,1061.6274977,No Deposit,Transient
+Resort Hotel,2017-07-13,Online TA,SWE,46,4,285.0,1140.0,0.753799,859.33086,No Deposit,Transient
+Resort Hotel,2017-07-14,Online TA,SEN,212,10,289.6,2896.0,0.753799,2183.001904,No Deposit,Transient
+Resort Hotel,2017-07-14,Online TA,GBR,70,7,240.0,1680.0,0.858974,1443.0763200000001,No Deposit,Transient
+Resort Hotel,2017-07-14,Online TA,PRT,242,8,233.1,1864.8,0.753799,1405.6843752,No Deposit,Transient
+Resort Hotel,2017-07-14,Direct,PRT,283,11,169.0,1859.0,0.617424,1147.7912159999998,No Deposit,Transient
+City Hotel,2017-07-14,Online TA,MAR,23,5,192.0,960.0,0.84252,808.8192,No Deposit,Transient
+Resort Hotel,2017-07-14,Online TA,PRT,9,7,237.71,1663.97,0.48,798.7056,No Deposit,Transient
+Resort Hotel,2017-07-14,Offline TA/TO,PRT,113,7,171.69,1201.83,0.658537,791.44952271,No Deposit,Transient
+Resort Hotel,2017-07-15,Online TA,RUS,99,9,209.0,1881.0,0.865497,1627.999857,No Deposit,Transient
+Resort Hotel,2017-07-15,Online TA,PRT,17,9,234.67,2112.03,0.617424,1304.0180107200001,No Deposit,Transient
+Resort Hotel,2017-07-15,Online TA,RUS,99,9,231.22,2080.98,0.617424,1284.84699552,No Deposit,Transient
+Resort Hotel,2017-07-15,Online TA,PRT,113,9,184.44,1659.96,0.753799,1251.27618804,No Deposit,Transient
+Resort Hotel,2017-07-15,Online TA,PRT,126,7,192.0,1344.0,0.728643,979.296192,No Deposit,Transient
+Resort Hotel,2017-07-15,Online TA,PRT,126,7,192.0,1344.0,0.728643,979.296192,No Deposit,Transient
+Resort Hotel,2017-07-15,Online TA,PRT,126,7,192.0,1344.0,0.728643,979.296192,No Deposit,Transient
+Resort Hotel,2017-07-15,Online TA,PRT,126,7,192.0,1344.0,0.728643,979.296192,No Deposit,Transient
+Resort Hotel,2017-07-15,Online TA,IRL,125,7,180.0,1260.0,0.753799,949.78674,No Deposit,Transient
+Resort Hotel,2017-07-15,Online TA,IRL,125,7,160.0,1120.0,0.728643,816.0801600000001,No Deposit,Transient
+Resort Hotel,2017-07-15,Online TA,IRL,125,7,160.0,1120.0,0.728643,816.0801600000001,No Deposit,Transient
+Resort Hotel,2017-07-15,Online TA,PRT,268,7,192.68,1348.76,0.6,809.256,No Deposit,Transient-Party
+Resort Hotel,2017-07-15,Online TA,PRT,268,7,192.68,1348.76,0.6,809.256,No Deposit,Transient-Party
+Resort Hotel,2017-07-15,Online TA,GBR,167,7,152.86,1070.02,0.753799,806.58000598,No Deposit,Transient
+Resort Hotel,2017-07-16,Online TA,PRT,184,13,216.93,2820.09,0.728643,2054.83883787,No Deposit,Transient
+Resort Hotel,2017-07-16,Online TA,PRT,336,5,281.0,1405.0,0.858974,1206.8584700000001,No Deposit,Transient
+Resort Hotel,2017-07-16,Online TA,CHE,188,7,203.71,1425.97,0.753799,1074.89476003,No Deposit,Transient
+Resort Hotel,2017-07-16,Direct,PRT,143,5,299.2,1496.0,0.669951,1002.2466959999999,No Deposit,Transient
+Resort Hotel,2017-07-16,Online TA,PRT,340,10,156.0,1560.0,0.617424,963.18144,No Deposit,Transient
+Resort Hotel,2017-07-16,Online TA,PRT,340,10,156.0,1560.0,0.617424,963.18144,No Deposit,Transient
+Resort Hotel,2017-07-16,Online TA,CHE,188,7,171.71,1201.97,0.728643,875.8070267100001,No Deposit,Transient
+Resort Hotel,2017-07-16,Online TA,FRA,128,6,192.0,1152.0,0.753799,868.376448,No Deposit,Transient
+Resort Hotel,2017-07-16,Online TA,PRT,158,10,115.2,1152.0,0.753799,868.376448,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,PRT,236,16,182.92,2926.72,0.865497,2533.06737984,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,CHE,240,16,183.05,2928.8,0.753799,2207.7265112,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,PRT,268,14,183.59,2570.26,0.728643,1872.8019571800003,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,CHE,195,9,290.67,2616.03,0.658537,1722.7525481100001,No Deposit,Transient
+Resort Hotel,2017-07-17,Direct,RUS,55,11,260.0,2860.0,0.6,1716.0,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,CHE,194,9,290.67,2616.03,0.617424,1615.19970672,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,PRT,42,7,342.29,2396.03,0.669951,1605.2226945300001,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,ESP,332,8,219.5,1756.0,0.858974,1508.358344,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,BRA,159,9,192.0,1728.0,0.858974,1484.307072,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,SWE,155,7,217.86,1525.02,0.858974,1309.95252948,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,GBR,322,7,244.0,1708.0,0.669951,1144.276308,No Deposit,Transient
+Resort Hotel,2017-07-17,Offline TA/TO,PRT,133,7,216.25,1513.75,0.669951,1014.13832625,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,BRA,128,9,168.89,1520.01,0.617424,938.4906542399999,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,NOR,252,6,192.0,1152.0,0.753799,868.376448,No Deposit,Transient
+Resort Hotel,2017-07-17,Online TA,PRT,182,6,181.88,1091.28,0.728643,795.1535330400001,No Deposit,Transient
+Resort Hotel,2017-07-18,Online TA,LUX,128,7,188.57,1319.99,0.728643,961.8014735700001,No Deposit,Transient
+Resort Hotel,2017-07-18,Online TA,PRT,43,6,255.0,1530.0,0.617424,944.6587199999999,No Deposit,Transient
+Resort Hotel,2017-07-18,Online TA,ESP,165,5,192.0,960.0,0.858974,824.61504,No Deposit,Transient
+Resort Hotel,2017-07-18,Online TA,ESP,72,4,271.0,1084.0,0.753799,817.118116,No Deposit,Transient
+City Hotel,2017-07-19,Online TA,BRA,146,11,196.12,2157.32,0.76555,1651.536326,No Deposit,Transient
+Resort Hotel,2017-07-19,Online TA,RUS,187,9,183.33,1649.97,0.858974,1417.28133078,No Deposit,Transient
+Resort Hotel,2017-07-19,Direct,PRT,72,7,306.0,2142.0,0.6,1285.2,No Deposit,Transient
+Resort Hotel,2017-07-19,Online TA,MAR,16,8,231.13,1849.04,0.669951,1238.76619704,No Deposit,Transient
+Resort Hotel,2017-07-19,Online TA,ESP,20,11,232.91,2562.01,0.461538,1182.4649713800002,No Deposit,Transient
+Resort Hotel,2017-07-19,Online TA,PRT,125,7,168.14,1176.98,0.753799,887.2063470200001,No Deposit,Transient
+Resort Hotel,2017-07-20,Offline TA/TO,PRT,202,14,158.63,2220.82,0.753799,1674.0518951800002,No Deposit,Transient
+Resort Hotel,2017-07-20,Online TA,PRT,91,4,377.0,1508.0,0.753799,1136.728892,No Deposit,Transient
+City Hotel,2017-07-20,Online TA,NOR,141,10,174.6,1746.0,0.612774,1069.9034040000001,No Deposit,Transient
+Resort Hotel,2017-07-21,Online TA,PRT,200,15,172.2,2583.0,0.858974,2218.729842,No Deposit,Transient
+Resort Hotel,2017-07-21,Online TA,PRT,109,10,229.0,2290.0,0.753799,1726.19971,No Deposit,Transient
+Resort Hotel,2017-07-21,Online TA,PRT,108,10,229.0,2290.0,0.753799,1726.19971,No Deposit,Transient
+Resort Hotel,2017-07-21,Online TA,CHE,116,8,289.0,2312.0,0.728643,1684.622616,No Deposit,Transient
+Resort Hotel,2017-07-21,Online TA,PRT,142,8,213.0,1704.0,0.753799,1284.473496,No Deposit,Transient
+Resort Hotel,2017-07-21,Offline TA/TO,PRT,73,8,203.75,1630.0,0.714286,1164.28618,No Deposit,Transient
+Resort Hotel,2017-07-21,Online TA,PRT,73,7,237.0,1659.0,0.669951,1111.448709,No Deposit,Transient
+Resort Hotel,2017-07-21,Online TA,PRT,166,7,212.0,1484.0,0.728643,1081.306212,No Deposit,Transient
+Resort Hotel,2017-07-21,Online TA,PRT,268,7,165.38,1157.66,0.858974,994.3998408400001,No Deposit,Transient
+Resort Hotel,2017-07-21,Online TA,CN,9,4,359.5,1438.0,0.617424,887.8557119999999,No Deposit,Transient
+Resort Hotel,2017-07-21,Direct,FRA,55,15,207.67,3115.05,0.278846,868.6192323,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,352,14,219.0,3066.0,0.865497,2653.613802,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,163,14,180.0,2520.0,0.787234,1983.82968,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,SWE,139,7,278.57,1949.99,0.753799,1469.90051201,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,28,6,353.0,2118.0,0.669951,1418.956218,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,28,6,315.0,1890.0,0.728643,1377.13527,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,186,7,244.0,1708.0,0.787234,1344.595672,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,ROU,151,7,265.0,1855.0,0.723418,1341.94039,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,ESP,159,7,212.0,1484.0,0.858974,1274.717416,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,ESP,159,7,212.0,1484.0,0.858974,1274.717416,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,ESP,159,7,212.0,1484.0,0.858974,1274.717416,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,26,8,205.0,1640.0,0.753799,1236.23036,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,134,7,230.0,1610.0,0.753799,1213.61639,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,ESP,159,8,248.0,1984.0,0.6,1190.3999999999999,No Deposit,Transient
+Resort Hotel,2017-07-22,Direct,PRT,117,7,274.6,1922.2,0.617424,1186.8124128,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,82,6,257.0,1542.0,0.753799,1162.358058,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,ESP,159,7,192.0,1344.0,0.858974,1154.461056,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,ESP,159,7,192.0,1344.0,0.858974,1154.461056,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,NLD,198,7,244.0,1708.0,0.669951,1144.276308,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,SWE,174,9,160.0,1440.0,0.753799,1085.47056,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,SWE,174,9,160.0,1440.0,0.753799,1085.47056,No Deposit,Transient
+Resort Hotel,2017-07-22,Direct,PRT,82,6,317.0,1902.0,0.552637,1051.1155740000002,No Deposit,Transient
+City Hotel,2017-07-22,Online TA,FRA,180,6,229.5,1377.0,0.75076,1033.7965199999999,No Deposit,Transient
+Resort Hotel,2017-07-22,Offline TA/TO,PRT,151,7,208.05,1456.35,0.669951,975.6831388499999,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,167,8,158.35,1266.8,0.753799,954.9125732,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,167,8,154.8,1238.4,0.753799,933.5046816,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,167,8,154.8,1238.4,0.753799,933.5046816,No Deposit,Transient
+Resort Hotel,2017-07-22,Corporate,PRT,66,8,135.0,1080.0,0.858974,927.69192,No Deposit,Transient
+City Hotel,2017-07-22,Online TA,FRA,143,7,175.5,1228.5,0.75076,922.30866,No Deposit,Transient
+Resort Hotel,2017-07-22,Direct,PRT,162,7,201.0,1407.0,0.617424,868.715568,No Deposit,Transient
+Resort Hotel,2017-07-22,Direct,PRT,180,7,187.52,1312.64,0.658537,864.4220076800001,No Deposit,Transient
+Resort Hotel,2017-07-22,Direct,PRT,180,7,187.52,1312.64,0.658537,864.4220076800001,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,180,7,139.68,977.76,0.858974,839.87041824,No Deposit,Transient
+Resort Hotel,2017-07-22,Online TA,PRT,270,7,138.38,968.66,0.858974,832.05375484,No Deposit,Transient
+Resort Hotel,2017-07-23,Online TA,CHE,200,12,244.0,2928.0,0.669951,1961.6165279999998,No Deposit,Transient
+Resort Hotel,2017-07-23,Online TA,ESP,84,8,277.0,2216.0,0.753799,1670.418584,No Deposit,Transient
+Resort Hotel,2017-07-23,Online TA,POL,154,7,270.71,1894.97,0.728643,1380.7566257100002,No Deposit,Transient
+City Hotel,2017-07-23,Direct,KOR,236,13,164.76,2141.88,0.612774,1312.4883751200002,No Deposit,Transient
+Resort Hotel,2017-07-23,Online TA,GBR,175,7,198.0,1386.0,0.865497,1199.578842,No Deposit,Transient
+Resort Hotel,2017-07-23,Online TA,GBR,175,7,198.0,1386.0,0.865497,1199.578842,No Deposit,Transient
+Resort Hotel,2017-07-23,Corporate,PRT,67,7,174.0,1218.0,0.753799,918.127182,No Deposit,Transient
+Resort Hotel,2017-07-23,Online TA,PRT,85,6,225.0,1350.0,0.669951,904.43385,No Deposit,Transient
+Resort Hotel,2017-07-23,Offline TA/TO,PRT,176,7,144.0,1008.0,0.858974,865.845792,No Deposit,Transient
+City Hotel,2017-07-23,Online TA,GBR,65,5,223.6,1118.0,0.76555,855.8848999999999,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,PRT,190,11,224.0,2464.0,0.728643,1795.376352,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,PRT,173,12,160.0,1920.0,0.858974,1649.23008,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,GBR,184,10,174.0,1740.0,0.753799,1311.61026,No Deposit,Transient
+City Hotel,2017-07-24,Online TA,BEL,242,13,156.6,2035.8,0.635739,1294.2374562,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,PRT,196,7,292.0,2044.0,0.617424,1262.0146559999998,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,GBR,347,7,262.0,1834.0,0.658537,1207.756858,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,RUS,73,12,213.33,2559.96,0.461538,1181.51881848,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,ITA,95,5,305.0,1525.0,0.669951,1021.6752749999999,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,ESP,181,5,224.0,1120.0,0.858974,962.05088,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,ESP,181,5,224.0,1120.0,0.858974,962.05088,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,CHE,207,5,292.0,1460.0,0.658537,961.46402,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,PRT,163,5,262.0,1310.0,0.714286,935.71466,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,GBR,12,5,299.0,1495.0,0.617424,923.0488799999999,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,PRT,226,4,309.0,1236.0,0.728643,900.602748,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,PRT,85,5,237.0,1185.0,0.753799,893.251815,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,ESP,181,5,206.0,1030.0,0.858974,884.7432200000001,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,CHE,189,7,183.75,1286.25,0.669951,861.7244737499999,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,CHE,189,7,183.75,1286.25,0.669951,861.7244737499999,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,PRT,276,8,140.38,1123.04,0.753799,846.54642896,No Deposit,Transient-Party
+Resort Hotel,2017-07-24,Online TA,PRT,88,5,237.0,1185.0,0.714286,846.42891,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,EST,26,4,315.0,1260.0,0.669951,844.13826,No Deposit,Transient
+Resort Hotel,2017-07-24,Online TA,PRT,276,8,138.38,1107.04,0.753799,834.48564496,No Deposit,Transient-Party
+Resort Hotel,2017-07-24,Online TA,PRT,163,5,262.0,1310.0,0.617424,808.82544,No Deposit,Transient
+Resort Hotel,2017-07-25,Online TA,DEU,150,5,271.0,1355.0,0.728643,987.311265,No Deposit,Transient
+City Hotel,2017-07-25,Online TA,GBR,28,6,210.0,1260.0,0.75076,945.9576,No Deposit,Transient
+Resort Hotel,2017-07-25,Offline TA/TO,PRT,231,7,187.25,1310.75,0.669951,878.13827325,No Deposit,Transient
+City Hotel,2017-07-25,Online TA,DEU,308,16,107.1,1713.6,0.491007,841.3895952,No Deposit,Transient
+City Hotel,2017-07-25,Online TA,DEU,308,16,107.1,1713.6,0.491007,841.3895952,No Deposit,Transient
+City Hotel,2017-07-26,Online TA,CN,109,11,225.0,2475.0,0.76555,1894.73625,No Deposit,Transient
+City Hotel,2017-07-26,Online TA,CN,109,11,225.0,2475.0,0.76555,1894.73625,No Deposit,Transient
+Resort Hotel,2017-07-26,Online TA,GBR,148,7,267.86,1875.02,0.753799,1413.38820098,No Deposit,Transient
+Resort Hotel,2017-07-26,Online TA,ESP,17,6,221.0,1326.0,0.753799,999.537474,No Deposit,Transient
+Resort Hotel,2017-07-26,Online TA,ESP,17,6,221.0,1326.0,0.753799,999.537474,No Deposit,Transient
+Resort Hotel,2017-07-26,Online TA,PRT,93,7,206.12,1442.84,0.658537,950.16352508,No Deposit,Transient
+Resort Hotel,2017-07-26,Online TA,PRT,174,5,212.16,1060.8,0.865497,918.1192176,No Deposit,Transient
+City Hotel,2017-07-27,Online TA,GBR,97,10,195.0,1950.0,0.75076,1463.982,No Deposit,Transient
+Resort Hotel,2017-07-27,Online TA,GBR,198,7,292.0,2044.0,0.669951,1369.3798439999998,No Deposit,Transient
+Resort Hotel,2017-07-27,Online TA,NLD,191,7,292.0,2044.0,0.658537,1346.049628,No Deposit,Transient
+Resort Hotel,2017-07-27,Direct,PRT,256,7,241.81,1692.67,0.617424,1045.09508208,No Deposit,Transient
+Resort Hotel,2017-07-27,Online TA,PRT,300,9,125.28,1127.52,0.865497,975.8651774399999,No Deposit,Transient
+Resort Hotel,2017-07-27,Direct,PRT,167,8,182.25,1458.0,0.617424,900.2041919999999,No Deposit,Transient
+City Hotel,2017-07-27,Online TA,MOZ,144,8,175.5,1404.0,0.635739,892.5775560000001,No Deposit,Transient
+Resort Hotel,2017-07-27,Corporate,PRT,71,7,146.0,1022.0,0.858974,877.871428,No Deposit,Transient
+Resort Hotel,2017-07-27,Corporate,PRT,71,7,146.0,1022.0,0.858974,877.871428,No Deposit,Transient
+Resort Hotel,2017-07-27,Online TA,PRT,199,6,183.75,1102.5,0.753799,831.0633975,No Deposit,Transient
+Resort Hotel,2017-07-27,Offline TA/TO,PRT,279,7,151.5,1060.5,0.753799,799.4038395,No Deposit,Contract
+Resort Hotel,2017-07-28,Online TA,ARE,33,6,315.0,1890.0,0.669951,1266.20739,No Deposit,Transient
+Resort Hotel,2017-07-28,Online TA,ESP,128,9,224.44,2019.96,0.617424,1247.17178304,No Deposit,Transient
+Resort Hotel,2017-07-28,Direct,PRT,165,12,165.33,1983.96,0.617424,1224.94451904,No Deposit,Transient-Party
+Resort Hotel,2017-07-28,Direct,PRT,165,12,163.5,1962.0,0.617424,1211.385888,No Deposit,Transient-Party
+City Hotel,2017-07-28,Online TA,PRT,94,10,146.4,1464.0,0.635739,930.7218960000001,No Deposit,Transient
+Resort Hotel,2017-07-28,Online TA,LUX,188,7,185.75,1300.25,0.669951,871.1037877499999,No Deposit,Transient
+Resort Hotel,2017-07-28,Online TA,PRT,292,7,138.38,968.66,0.858974,832.05375484,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,GBR,358,10,266.6,2666.0,0.658537,1755.659642,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,GBR,342,10,266.6,2666.0,0.658537,1755.659642,No Deposit,Transient
+City Hotel,2017-07-29,Online TA,FRA,158,14,164.7,2305.8,0.75076,1731.1024080000002,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,LUX,23,5,363.0,1815.0,0.858974,1559.03781,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,LUX,20,5,363.0,1815.0,0.858974,1559.03781,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,MAR,56,7,305.0,2135.0,0.617424,1318.20024,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,CHE,237,8,244.0,1952.0,0.669951,1307.744352,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,PRT,191,7,246.0,1722.0,0.753799,1298.041878,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,PRT,137,9,229.33,2063.97,0.617424,1274.3446132799997,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,PRT,306,7,204.62,1432.34,0.858974,1230.3428191599999,No Deposit,Transient
+City Hotel,2017-07-29,Online TA,CN,15,7,222.57,1557.99,0.76555,1192.7192444999998,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,PRT,38,8,242.1,1936.8,0.6,1162.08,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,CN,147,6,220.0,1320.0,0.858974,1133.8456800000001,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,MAR,56,7,225.0,1575.0,0.6,945.0,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,PRT,247,7,153.75,1076.25,0.858974,924.4707675,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,PRT,247,7,153.75,1076.25,0.858974,924.4707675,No Deposit,Transient
+Resort Hotel,2017-07-29,Online TA,PRT,186,7,168.93,1182.51,0.753799,891.37485549,No Deposit,Transient
+City Hotel,2017-07-29,Online TA,FRA,155,8,139.5,1116.0,0.710012,792.373392,No Deposit,Transient
+Resort Hotel,2017-07-30,Online TA,PRT,228,12,212.17,2546.04,0.753799,1919.2024059599999,No Deposit,Transient
+City Hotel,2017-07-30,Online TA,MOZ,103,16,125.0,2000.0,0.710012,1420.024,No Deposit,Transient
+Resort Hotel,2017-07-30,Online TA,MAR,109,7,294.86,2064.02,0.669951,1382.7922630199998,No Deposit,Transient
+Resort Hotel,2017-07-30,Online TA,PRT,206,10,190.7,1907.0,0.714286,1362.143402,No Deposit,Transient
+Resort Hotel,2017-07-30,Online TA,PRT,359,7,219.0,1533.0,0.865497,1326.806901,No Deposit,Transient
+Resort Hotel,2017-07-30,Direct,PRT,209,7,233.13,1631.91,0.617424,1007.58039984,No Deposit,Transient
+Resort Hotel,2017-07-30,Online TA,PRT,359,7,165.6,1159.2,0.865497,1003.2841224,No Deposit,Transient
+Resort Hotel,2017-07-30,Online TA,PRT,166,6,194.0,1164.0,0.858974,999.845736,No Deposit,Transient
+City Hotel,2017-07-30,Online TA,MAR,333,9,119.7,1077.3,0.916667,987.5253591,No Deposit,Transient
+Resort Hotel,2017-07-30,Online TA,ESP,185,8,195.5,1564.0,0.617424,965.651136,No Deposit,Transient
+Resort Hotel,2017-07-30,Corporate,PRT,18,8,152.1,1216.8,0.753799,917.2226231999999,No Deposit,Transient
+Resort Hotel,2017-07-30,Corporate,PRT,18,8,152.1,1216.8,0.753799,917.2226231999999,No Deposit,Transient
+Resort Hotel,2017-07-30,Online TA,DEU,309,7,172.8,1209.6,0.753799,911.7952703999999,No Deposit,Transient
+Resort Hotel,2017-07-30,Online TA,PRT,300,7,149.81,1048.67,0.865497,907.6207389900001,No Deposit,Transient
+Resort Hotel,2017-07-30,Direct,PRT,191,9,160.08,1440.72,0.6,864.432,No Deposit,Transient
+Resort Hotel,2017-07-30,Online TA,PRT,300,7,138.38,968.66,0.865497,838.37232402,No Deposit,Transient
+Resort Hotel,2017-07-30,Online TA,PRT,300,7,138.38,968.66,0.865497,838.37232402,No Deposit,Transient
+Resort Hotel,2017-07-30,Direct,PRT,256,7,170.6,1194.2,0.669951,800.0554842,No Deposit,Transient
+Resort Hotel,2017-07-30,Online TA,PRT,300,7,149.81,1048.67,0.753799,790.48639733,No Deposit,Transient-Party
+Resort Hotel,2017-07-30,Online TA,PRT,300,7,149.81,1048.67,0.753799,790.48639733,No Deposit,Transient-Party
+Resort Hotel,2017-07-31,Online TA,PRT,173,12,223.67,2684.04,0.753799,2023.22666796,No Deposit,Transient
+Resort Hotel,2017-07-31,Online TA,PRT,343,10,227.8,2278.0,0.865497,1971.602166,No Deposit,Transient
+City Hotel,2017-07-31,Online TA,FRO,315,14,155.0,2170.0,0.76555,1661.2434999999998,No Deposit,Transient
+Resort Hotel,2017-07-31,Online TA,PRT,172,12,138.0,1656.0,0.858974,1422.460944,No Deposit,Transient
+City Hotel,2017-07-31,Online TA,ITA,125,9,193.0,1737.0,0.75076,1304.0701199999999,No Deposit,Transient
+Resort Hotel,2017-07-31,Online TA,PRT,113,7,273.86,1917.02,0.669951,1284.30946602,No Deposit,Transient
+Resort Hotel,2017-07-31,Online TA,PRT,26,7,270.51,1893.57,0.669951,1268.59911507,No Deposit,Transient
+Resort Hotel,2017-07-31,Online TA,PRT,172,12,138.0,1656.0,0.753799,1248.291144,No Deposit,Transient
+City Hotel,2017-07-31,Online TA,FRO,315,14,139.5,1953.0,0.635739,1241.598267,Refundable,Transient
+City Hotel,2017-07-31,Online TA,FRO,315,14,139.5,1953.0,0.635739,1241.598267,Refundable,Transient
+City Hotel,2017-07-31,Online TA,FRO,315,14,139.5,1953.0,0.635739,1241.598267,Refundable,Transient
+Resort Hotel,2017-07-31,Online TA,PRT,155,7,268.0,1876.0,0.617424,1158.2874239999999,No Deposit,Transient
+Resort Hotel,2017-07-31,Online TA,ESP,254,7,192.0,1344.0,0.858974,1154.461056,No Deposit,Transient
+City Hotel,2017-07-31,Online TA,FRA,134,10,148.5,1485.0,0.710012,1054.36782,No Deposit,Transient
+Resort Hotel,2017-07-31,Online TA,ESP,75,5,257.0,1285.0,0.787234,1011.59569,No Deposit,Transient
+Resort Hotel,2017-07-31,Direct,PRT,26,7,259.0,1813.0,0.48,870.24,No Deposit,Transient
+Resort Hotel,2017-07-31,Online TA,PRT,187,5,277.0,1385.0,0.617424,855.1322399999999,No Deposit,Transient
+Resort Hotel,2017-07-31,Online TA,CHE,164,5,218.0,1090.0,0.753799,821.64091,No Deposit,Transient
+Resort Hotel,2017-07-31,Online TA,PRT,134,5,224.0,1120.0,0.728643,816.0801600000001,No Deposit,Transient
+Resort Hotel,2017-07-31,Online TA,BEL,172,5,212.0,1060.0,0.753799,799.02694,No Deposit,Transient
+Resort Hotel,2017-08-01,Online TA,PRT,378,14,450.0,6300.0,0.851153,5362.2639,No Deposit,Transient
+Resort Hotel,2017-08-01,Online TA,PRT,352,14,190.96,2673.44,0.851153,2275.5064763200003,No Deposit,Transient
+Resort Hotel,2017-08-01,Online TA,PRT,358,14,190.96,2673.44,0.818182,2187.36048608,No Deposit,Transient
+Resort Hotel,2017-08-01,Online TA,ESP,28,7,315.71,2209.97,0.737643,1630.16890071,No Deposit,Transient
+Resort Hotel,2017-08-01,Online TA,GBR,136,7,301.43,2110.01,0.737643,1556.4341064300002,No Deposit,Transient
+Resort Hotel,2017-08-01,Online TA,PRT,171,9,191.11,1719.99,0.772727,1329.0827127300001,No Deposit,Transient
+Resort Hotel,2017-08-01,Offline TA/TO,PRT,203,14,126.9,1776.6,0.653439,1160.8997273999998,No Deposit,Transient
+Resort Hotel,2017-08-01,Online TA,ESP,195,6,231.0,1386.0,0.818182,1134.000252,No Deposit,Transient
+Resort Hotel,2017-08-01,Online TA,CHE,328,11,156.6,1722.6,0.653439,1125.6140214,No Deposit,Transient
+Resort Hotel,2017-08-01,Offline TA/TO,PRT,162,7,242.25,1695.75,0.653439,1108.06918425,No Deposit,Transient
+City Hotel,2017-08-01,Online TA,ROU,111,7,225.0,1575.0,0.691099,1088.480925,No Deposit,Transient
+City Hotel,2017-08-01,Online TA,ISR,143,9,148.5,1336.5,0.810811,1083.6489015,No Deposit,Transient
+Resort Hotel,2017-08-01,Direct,PRT,31,8,426.25,3410.0,0.278017,948.0379700000001,No Deposit,Transient
+Resort Hotel,2017-08-01,Online TA,PRT,26,5,310.0,1550.0,0.605263,938.15765,No Deposit,Transient
+Resort Hotel,2017-08-01,Online TA,PRT,176,7,150.17,1051.19,0.851153,894.7235220700001,No Deposit,Transient
+Resort Hotel,2017-08-01,Online TA,PRT,215,7,145.44,1018.08,0.851153,866.54184624,No Deposit,Transient
+Resort Hotel,2017-08-01,Online TA,PRT,334,6,156.6,939.6,0.851153,799.7433588,No Deposit,Transient
+Resort Hotel,2017-08-02,Online TA,FRA,187,14,168.57,2359.98,0.729412,1721.39773176,No Deposit,Transient
+Resort Hotel,2017-08-02,Offline TA/TO,PRT,76,10,257.34,2573.4,0.605263,1557.5838042,No Deposit,Transient
+Resort Hotel,2017-08-02,Offline TA/TO,PRT,187,10,193.1,1931.0,0.729412,1408.4945719999998,No Deposit,Transient
+Resort Hotel,2017-08-02,Online TA,PRT,188,10,188.0,1880.0,0.737643,1386.7688400000002,No Deposit,Transient
+City Hotel,2017-08-02,Online TA,ESP,227,12,112.5,1350.0,0.810811,1094.59485,No Deposit,Transient
+City Hotel,2017-08-02,Online TA,MAR,243,10,148.5,1485.0,0.691099,1026.282015,No Deposit,Transient
+Resort Hotel,2017-08-02,Online TA,PRT,310,8,148.74,1189.92,0.851153,1012.8039777600001,No Deposit,Transient
+Resort Hotel,2017-08-02,Online TA,PRT,205,5,300.4,1502.0,0.653439,981.465378,No Deposit,Transient
+Resort Hotel,2017-08-02,Online TA,PRT,205,5,300.4,1502.0,0.653439,981.465378,No Deposit,Transient
+City Hotel,2017-08-02,Online TA,DEU,155,10,122.5,1225.0,0.732713,897.5734249999999,No Deposit,Transient
+Resort Hotel,2017-08-02,Direct,PRT,248,7,179.77,1258.39,0.653439,822.2811032100001,No Deposit,Transient
+City Hotel,2017-08-02,Online TA,BRA,328,7,172.0,1204.0,0.655797,789.579588,No Deposit,Transient
+Resort Hotel,2017-08-03,Online TA,PRT,83,11,270.0,2970.0,0.737643,2190.7997100000002,No Deposit,Transient
+Resort Hotel,2017-08-03,Online TA,PRT,83,11,250.0,2750.0,0.729412,2005.8829999999998,No Deposit,Transient
+Resort Hotel,2017-08-03,Direct,PRT,128,10,368.1,3681.0,0.492857,1814.206617,No Deposit,Transient
+Resort Hotel,2017-08-03,Online TA,PRT,153,7,282.29,1976.03,0.605263,1196.01784589,No Deposit,Transient
+City Hotel,2017-08-03,Online TA,ESP,158,7,226.8,1587.6,0.732713,1163.2551588,No Deposit,Transient
+Resort Hotel,2017-08-03,Online TA,PRT,179,7,212.29,1486.03,0.737643,1096.1596272900001,No Deposit,Transient
+Resort Hotel,2017-08-03,Offline TA/TO,PRT,178,10,175.5,1755.0,0.605263,1062.236565,No Deposit,Transient
+City Hotel,2017-08-03,Online TA,NLD,148,9,175.5,1579.5,0.641487,1013.2287165,No Deposit,Transient
+Resort Hotel,2017-08-03,Online TA,FRA,175,14,258.29,3616.06,0.242291,876.13879346,No Deposit,Transient
+Resort Hotel,2017-08-03,Online TA,ESP,104,8,230.0,1840.0,0.470588,865.88192,No Deposit,Transient
+Resort Hotel,2017-08-03,Online TA,GBR,273,7,172.8,1209.6,0.653439,790.3998144,No Deposit,Transient
+Resort Hotel,2017-08-04,Online TA,TUR,144,10,252.0,2520.0,0.716867,1806.50484,No Deposit,Transient
+Resort Hotel,2017-08-04,Online TA,PRT,327,9,174.8,1573.2,0.851153,1339.0338996,No Deposit,Transient
+Resort Hotel,2017-08-04,Online TA,GBR,93,4,378.0,1512.0,0.818182,1237.0911839999999,No Deposit,Transient
+Resort Hotel,2017-08-04,Offline TA/TO,PRT,255,12,151.1,1813.2,0.653439,1184.8155948,No Deposit,Transient
+City Hotel,2017-08-04,Online TA,PRT,211,6,256.5,1539.0,0.641487,987.248493,No Deposit,Transient
+Resort Hotel,2017-08-04,Direct,PRT,51,4,358.75,1435.0,0.605263,868.552405,No Deposit,Transient
+Resort Hotel,2017-08-05,Online TA,MAR,45,6,378.0,2268.0,0.851153,1930.4150040000002,No Deposit,Transient
+Resort Hotel,2017-08-05,Online TA,ESP,45,10,230.0,2300.0,0.818182,1881.8185999999998,No Deposit,Transient
+Resort Hotel,2017-08-05,Online TA,ESP,141,7,310.0,2170.0,0.851153,1847.0020100000002,No Deposit,Transient
+Resort Hotel,2017-08-05,Online TA,ESP,98,7,262.0,1834.0,0.851153,1561.0146020000002,No Deposit,Transient
+Resort Hotel,2017-08-05,Online TA,PRT,197,10,168.0,1680.0,0.851153,1429.93704,No Deposit,Transient
+City Hotel,2017-08-05,Online TA,MYT,216,5,256.5,1282.5,0.810811,1039.8651075,No Deposit,Transient
+Resort Hotel,2017-08-05,Online TA,PRT,25,5,250.0,1250.0,0.818182,1022.7275,No Deposit,Transient
+Resort Hotel,2017-08-05,Online TA,PRT,307,6,168.6,1011.6,0.851153,861.0263748000001,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,PRT,45,14,216.0,3024.0,0.653439,1975.999536,No Deposit,Transient
+City Hotel,2017-08-06,Online TA,USA,172,14,173.83,2433.62,0.810811,1973.2058658199999,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,PRT,310,9,206.0,1854.0,0.851153,1578.0376620000002,No Deposit,Transient
+City Hotel,2017-08-06,Online TA,USA,172,14,113.32,1586.48,0.964286,1529.82045328,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,CHE,96,9,230.0,2070.0,0.737643,1526.92101,No Deposit,Transient
+Resort Hotel,2017-08-06,Offline TA/TO,PRT,113,10,294.5,2945.0,0.488889,1439.778105,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,PRT,117,6,303.7,1822.2,0.729412,1329.1345463999999,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,PRT,178,7,218.0,1526.0,0.818182,1248.545732,No Deposit,Transient
+Resort Hotel,2017-08-06,Direct,PRT,262,7,288.03,2016.21,0.605263,1220.33731323,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,PRT,178,7,200.0,1400.0,0.851153,1191.6142,No Deposit,Transient
+City Hotel,2017-08-06,Online TA,USA,172,14,128.83,1803.62,0.641487,1156.99878294,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,PRT,157,9,250.0,2250.0,0.5,1125.0,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,PRT,194,8,178.56,1428.48,0.772727,1103.8250649600002,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,GEO,126,5,259.0,1295.0,0.851153,1102.2431350000002,No Deposit,Transient
+City Hotel,2017-08-06,Online TA,USA,168,14,119.83,1677.62,0.641487,1076.17142094,No Deposit,Transient
+City Hotel,2017-08-06,Online TA,ROU,80,7,237.71,1663.97,0.641487,1067.41512339,No Deposit,Transient
+Resort Hotel,2017-08-06,Direct,PRT,33,5,323.0,1615.0,0.653439,1055.303985,No Deposit,Transient
+Resort Hotel,2017-08-06,Offline TA/TO,PRT,25,14,114.76,1606.64,0.653439,1049.84123496,No Deposit,Group
+Resort Hotel,2017-08-06,Online TA,MAR,190,6,202.0,1212.0,0.851153,1031.597436,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,GEO,123,5,239.0,1195.0,0.851153,1017.127835,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,GEO,126,5,239.0,1195.0,0.851153,1017.127835,No Deposit,Transient
+Resort Hotel,2017-08-06,Direct,PRT,33,5,297.0,1485.0,0.653439,970.356915,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,CHE,142,5,220.0,1100.0,0.851153,936.2683000000001,No Deposit,Transient
+Resort Hotel,2017-08-06,Direct,PRT,297,9,170.95,1538.55,0.605263,931.22738865,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,PRT,126,5,239.0,1195.0,0.737643,881.4833850000001,No Deposit,Transient
+City Hotel,2017-08-06,Online TA,AUT,111,7,195.0,1365.0,0.641487,875.629755,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,PRT,177,7,156.96,1098.72,0.737643,810.4631169600001,No Deposit,Transient
+Resort Hotel,2017-08-06,Online TA,PRT,177,7,156.96,1098.72,0.737643,810.4631169600001,No Deposit,Transient
+Resort Hotel,2017-08-06,Offline TA/TO,PRT,185,7,174.0,1218.0,0.653439,795.888702,No Deposit,Transient
+Resort Hotel,2017-08-07,Online TA,FRA,328,14,292.0,4088.0,0.716867,2930.5522960000003,No Deposit,Transient
+Resort Hotel,2017-08-07,Online TA,ESP,260,10,292.0,2920.0,0.737643,2153.9175600000003,No Deposit,Transient
+Resort Hotel,2017-08-07,Offline TA/TO,PRT,165,10,151.5,1515.0,0.716867,1086.053505,No Deposit,Contract
+Resort Hotel,2017-08-07,Online TA,ESP,200,7,200.0,1400.0,0.772727,1081.8178,No Deposit,Transient
+Resort Hotel,2017-08-07,Online TA,ESP,200,7,200.0,1400.0,0.772727,1081.8178,No Deposit,Transient
+Resort Hotel,2017-08-07,Online TA,PRT,256,14,126.41,1769.74,0.605263,1071.15814162,No Deposit,Transient
+Resort Hotel,2017-08-07,Online TA,ESP,105,8,262.0,2096.0,0.470588,986.352448,No Deposit,Transient
+Resort Hotel,2017-08-07,Online TA,ESP,43,7,270.0,1890.0,0.492857,931.49973,No Deposit,Transient
+Resort Hotel,2017-08-07,Online TA,CHE,128,4,317.0,1268.0,0.716867,908.9873560000001,No Deposit,Transient
+Resort Hotel,2017-08-07,Online TA,CHE,228,6,206.0,1236.0,0.729412,901.553232,No Deposit,Transient
+Resort Hotel,2017-08-07,Online TA,ESP,88,4,262.0,1048.0,0.851153,892.0083440000001,No Deposit,Transient
+Resort Hotel,2017-08-07,Offline TA/TO,PRT,137,7,205.43,1438.01,0.605263,870.37424663,No Deposit,Transient
+Resort Hotel,2017-08-07,Online TA,CHE,138,4,298.0,1192.0,0.729412,869.4591039999999,No Deposit,Transient
+Resort Hotel,2017-08-07,Offline TA/TO,PRT,195,10,139.1,1391.0,0.605263,841.920833,No Deposit,Transient
+Resort Hotel,2017-08-07,Online TA,ESP,28,7,244.0,1708.0,0.492857,841.799756,No Deposit,Transient
+Resort Hotel,2017-08-08,Online TA,PRT,188,11,174.55,1920.05,0.851153,1634.25631765,No Deposit,Transient
+Resort Hotel,2017-08-08,Online TA,MAR,314,6,297.0,1782.0,0.729412,1299.812184,No Deposit,Transient
+City Hotel,2017-08-08,Online TA,ITA,201,10,166.5,1665.0,0.732713,1219.9671449999998,No Deposit,Transient
+Resort Hotel,2017-08-08,Direct,PRT,105,7,275.0,1925.0,0.492857,948.749725,No Deposit,Transient
+City Hotel,2017-08-08,Online TA,FRA,113,14,125.0,1750.0,0.526316,921.053,No Deposit,Transient
+Resort Hotel,2017-08-08,Online TA,PRT,84,6,230.0,1380.0,0.653439,901.74582,No Deposit,Transient
+Resort Hotel,2017-08-09,Direct,PRT,116,10,392.0,3920.0,0.605263,2372.63096,No Deposit,Transient
+Resort Hotel,2017-08-09,Online TA,PRT,177,6,329.67,1978.02,0.716867,1417.97726334,No Deposit,Transient
+Resort Hotel,2017-08-09,Online TA,PRT,33,6,330.0,1980.0,0.653439,1293.80922,No Deposit,Transient
+Resort Hotel,2017-08-09,Online TA,ESP,338,11,215.24,2367.64,0.492857,1166.9079474799998,No Deposit,Transient
+Resort Hotel,2017-08-09,Online TA,NOR,198,6,258.0,1548.0,0.716867,1109.710116,No Deposit,Transient
+Resort Hotel,2017-08-09,Offline TA/TO,PRT,4,10,306.7,3067.0,0.315534,967.7427779999999,No Deposit,Transient
+Resort Hotel,2017-08-09,Online TA,ESP,32,11,273.09,3003.99,0.315534,947.8609806599999,No Deposit,Transient
+Resort Hotel,2017-08-10,Online TA,PRT,172,13,212.31,2760.03,0.492857,1360.30010571,No Deposit,Transient
+Resort Hotel,2017-08-10,Online TA,NLD,184,7,264.29,1850.03,0.653439,1208.88175317,No Deposit,Transient
+Resort Hotel,2017-08-10,Online TA,PRT,85,7,232.6,1628.2,0.716867,1167.2028494,No Deposit,Transient
+Resort Hotel,2017-08-10,Online TA,DEU,95,6,230.0,1380.0,0.772727,1066.36326,No Deposit,Transient
+Resort Hotel,2017-08-10,Online TA,PRT,95,6,230.0,1380.0,0.729412,1006.5885599999999,No Deposit,Transient
+Resort Hotel,2017-08-10,Online TA,PRT,91,5,273.25,1366.25,0.729412,996.559145,No Deposit,Transient
+Resort Hotel,2017-08-10,Online TA,PRT,95,6,222.0,1332.0,0.716867,954.866844,No Deposit,Transient
+Resort Hotel,2017-08-10,Online TA,ESP,172,7,250.0,1750.0,0.492857,862.49975,No Deposit,Transient
+Resort Hotel,2017-08-11,Online TA,FRA,238,13,297.38,3865.94,0.653439,2526.15596766,No Deposit,Transient
+Resort Hotel,2017-08-11,Online TA,PRT,98,7,262.0,1834.0,0.608696,1116.348464,No Deposit,Transient
+Resort Hotel,2017-08-11,Online TA,PRT,217,6,199.67,1198.02,0.772727,925.7424005400001,No Deposit,Transient
+Resort Hotel,2017-08-12,Online TA,PRT,213,14,228.0,3192.0,0.772727,2466.544584,No Deposit,Transient
+Resort Hotel,2017-08-12,Online TA,ESP,187,7,256.57,1795.99,0.851153,1528.66227647,No Deposit,Transient
+Resort Hotel,2017-08-12,Offline TA/TO,PRT,186,11,169.0,1859.0,0.818182,1521.0003379999998,No Deposit,Transient
+Resort Hotel,2017-08-12,Offline TA/TO,PRT,187,11,151.0,1661.0,0.851153,1413.765133,No Deposit,Transient
+Resort Hotel,2017-08-12,Offline TA/TO,PRT,187,11,151.0,1661.0,0.851153,1413.765133,No Deposit,Transient
+Resort Hotel,2017-08-12,Online TA,PRT,47,5,340.0,1700.0,0.737643,1253.9931000000001,No Deposit,Transient
+Resort Hotel,2017-08-12,Online TA,PRT,186,7,208.57,1459.99,0.851153,1242.67486847,No Deposit,Transient
+Resort Hotel,2017-08-12,Offline TA/TO,PRT,186,11,151.0,1661.0,0.729412,1211.553332,No Deposit,Transient
+Resort Hotel,2017-08-12,Online TA,PRT,46,7,262.0,1834.0,0.653439,1198.407126,No Deposit,Transient
+Resort Hotel,2017-08-12,Online TA,LUX,163,7,252.0,1764.0,0.653439,1152.666396,No Deposit,Transient
+Resort Hotel,2017-08-12,Online TA,PRT,254,7,212.58,1488.06,0.772727,1149.86413962,No Deposit,Transient
+Resort Hotel,2017-08-12,Online TA,ESP,176,8,232.0,1856.0,0.605263,1123.368128,No Deposit,Transient
+Resort Hotel,2017-08-12,Offline TA/TO,PRT,193,14,110.7,1549.8,0.653439,1012.6997622,No Deposit,Transient
+City Hotel,2017-08-12,Online TA,PRT,190,5,326.5,1632.5,0.611307,997.9586775,No Deposit,Transient
+Resort Hotel,2017-08-12,Offline TA/TO,PRT,46,7,212.0,1484.0,0.653439,969.703476,No Deposit,Transient
+Resort Hotel,2017-08-12,Online TA,PRT,96,7,217.1,1519.7,0.605263,919.8181811000001,No Deposit,Transient-Party
+Resort Hotel,2017-08-12,Online TA,PRT,224,5,303.2,1516.0,0.605263,917.578708,No Deposit,Transient
+City Hotel,2017-08-12,Online TA,FRA,264,7,167.85,1174.95,0.756856,889.2679572,No Deposit,Transient
+City Hotel,2017-08-12,Online TA,MAR,118,7,193.0,1351.0,0.641487,866.648937,No Deposit,Transient
+Resort Hotel,2017-08-12,Direct,PRT,192,7,199.15,1394.05,0.605263,843.76688515,No Deposit,Transient
+City Hotel,2017-08-12,Online TA,MAR,85,5,200.0,1000.0,0.810811,810.8109999999999,No Deposit,Transient
+Resort Hotel,2017-08-13,Online TA,PRT,309,7,249.0,1743.0,0.851153,1483.5596790000002,No Deposit,Transient
+City Hotel,2017-08-13,Online TA,FRA,105,14,195.0,2730.0,0.537297,1466.8208100000002,No Deposit,Transient
+Resort Hotel,2017-08-13,Online TA,PRT,300,7,219.6,1537.2,0.851153,1308.3923916,No Deposit,Transient
+Resort Hotel,2017-08-13,Online TA,PRT,102,8,230.0,1840.0,0.605263,1113.68392,No Deposit,Transient
+Resort Hotel,2017-08-13,Offline TA/TO,PRT,12,11,163.0,1793.0,0.605263,1085.236559,No Deposit,Contract
+Resort Hotel,2017-08-13,Offline TA/TO,PRT,206,7,232.61,1628.27,0.653439,1063.97512053,No Deposit,Transient
+Resort Hotel,2017-08-13,Offline TA/TO,PRT,291,10,117.3,1173.0,0.851153,998.4024690000001,No Deposit,Contract
+Resort Hotel,2017-08-13,Offline TA/TO,PRT,291,10,117.3,1173.0,0.851153,998.4024690000001,No Deposit,Contract
+Resort Hotel,2017-08-13,Online TA,PRT,224,5,311.6,1558.0,0.605263,942.9997539999999,No Deposit,Transient
+Resort Hotel,2017-08-13,Online TA,PRT,223,6,212.33,1273.98,0.737643,939.7424291400001,No Deposit,Transient
+Resort Hotel,2017-08-13,Direct,PRT,59,6,437.0,2622.0,0.349515,916.4283300000001,No Deposit,Transient
+City Hotel,2017-08-13,Online TA,FRA,207,11,141.46,1556.06,0.537297,836.06636982,No Deposit,Transient
+Resort Hotel,2017-08-13,Offline TA/TO,PRT,185,10,229.13,2291.3,0.349515,800.8437195000001,No Deposit,Transient
+Resort Hotel,2017-08-14,Online TA,MAR,244,10,246.8,2468.0,0.851153,2100.6456040000003,No Deposit,Transient
+Resort Hotel,2017-08-14,Online TA,PRT,187,11,233.64,2570.04,0.653439,1679.36436756,No Deposit,Transient
+Resort Hotel,2017-08-14,Online TA,FRA,358,8,308.0,2464.0,0.653439,1610.073696,No Deposit,Transient
+Resort Hotel,2017-08-14,Online TA,LVA,295,7,297.0,2079.0,0.737643,1533.5597970000001,No Deposit,Transient
+Resort Hotel,2017-08-14,Online TA,PRT,133,7,254.0,1778.0,0.729412,1296.894536,No Deposit,Transient
+City Hotel,2017-08-14,Online TA,DEU,183,11,167.24,1839.64,0.691099,1271.37336436,No Deposit,Transient
+Resort Hotel,2017-08-14,Online TA,LUX,33,7,262.0,1834.0,0.653439,1198.407126,No Deposit,Transient
+Resort Hotel,2017-08-14,Online TA,ESP,99,5,262.0,1310.0,0.851153,1115.01043,No Deposit,Transient
+Resort Hotel,2017-08-14,Online TA,ESP,367,7,249.23,1744.61,0.605263,1055.94788243,No Deposit,Transient
+Resort Hotel,2017-08-14,Online TA,PRT,227,6,208.67,1252.02,0.772727,967.4696585400001,No Deposit,Transient
+Resort Hotel,2017-08-14,Online TA,ESP,53,3,388.0,1164.0,0.772727,899.4542280000001,No Deposit,Transient
+City Hotel,2017-08-14,Online TA,FRA,229,10,140.76,1407.6,0.621951,875.4582276,No Deposit,Transient
+City Hotel,2017-08-14,Online TA,ESP,145,6,190.8,1144.8,0.756856,866.4487488,No Deposit,Transient
+Resort Hotel,2017-08-14,Online TA,PRT,91,5,221.0,1105.0,0.772727,853.863335,No Deposit,Transient
+Resort Hotel,2017-08-14,Corporate,PRT,13,7,159.0,1113.0,0.737643,820.996659,No Deposit,Transient
+Resort Hotel,2017-08-15,Online TA,ESP,97,8,270.0,2160.0,0.851153,1838.4904800000002,No Deposit,Transient
+Resort Hotel,2017-08-15,Online TA,ITA,141,7,245.0,1715.0,0.772727,1325.226805,No Deposit,Transient
+Resort Hotel,2017-08-15,Online TA,PRT,24,7,224.0,1568.0,0.716867,1124.047456,No Deposit,Transient
+Resort Hotel,2017-08-15,Online TA,PRT,39,6,230.0,1380.0,0.729412,1006.5885599999999,No Deposit,Transient
+Resort Hotel,2017-08-15,Online TA,PRT,15,6,273.0,1638.0,0.605263,991.420794,No Deposit,Transient
+Resort Hotel,2017-08-15,Online TA,PRT,365,4,322.0,1288.0,0.737643,950.084184,No Deposit,Transient
+Resort Hotel,2017-08-15,Direct,PRT,82,14,318.0,4452.0,0.211901,943.383252,No Deposit,Transient
+Resort Hotel,2017-08-16,Online TA,PRT,150,7,261.0,1827.0,0.729412,1332.635724,No Deposit,Transient
+Resort Hotel,2017-08-16,Online TA,PRT,217,10,144.88,1448.8,0.851153,1233.1504664000001,No Deposit,Transient
+City Hotel,2017-08-16,Online TA,ESP,101,9,252.0,2268.0,0.537297,1218.589596,No Deposit,Transient
+Resort Hotel,2017-08-16,Online TA,ESP,36,6,230.0,1380.0,0.772727,1066.36326,No Deposit,Transient
+Resort Hotel,2017-08-16,Online TA,PRT,69,6,230.0,1380.0,0.729412,1006.5885599999999,No Deposit,Transient
+Resort Hotel,2017-08-16,Offline TA/TO,PRT,247,8,139.28,1114.24,0.851153,948.38871872,No Deposit,Transient
+Resort Hotel,2017-08-16,Online TA,PRT,145,5,252.0,1260.0,0.737643,929.4301800000001,No Deposit,Transient
+Resort Hotel,2017-08-16,Offline TA/TO,PRT,204,10,148.7,1487.0,0.605263,900.026081,No Deposit,Transient
+Resort Hotel,2017-08-16,Offline TA/TO,PRT,247,8,141.68,1133.44,0.772727,875.8396908800001,No Deposit,Transient
+Resort Hotel,2017-08-16,Online TA,PRT,142,5,229.0,1145.0,0.737643,844.6012350000001,No Deposit,Transient
+City Hotel,2017-08-16,Online TA,CHE,98,6,195.0,1170.0,0.691099,808.58583,No Deposit,Transient
+Resort Hotel,2017-08-16,Online TA,ESP,183,7,232.0,1624.0,0.492857,800.399768,No Deposit,Transient
+City Hotel,2017-08-16,Online TA,ITA,185,9,120.4,1083.6,0.732713,793.9678067999998,No Deposit,Transient
+City Hotel,2017-08-17,Online TA,FRA,206,14,163.22,2285.08,0.756856,1729.47650848,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,PRT,154,7,238.57,1669.99,0.772727,1290.4463627300001,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,ESP,179,6,290.0,1740.0,0.737643,1283.49882,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,ESP,168,8,237.5,1900.0,0.653439,1241.5341,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,GBR,358,7,260.0,1820.0,0.653439,1189.25898,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,PRT,69,4,378.0,1512.0,0.729412,1102.870944,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,ESP,151,8,217.5,1740.0,0.605263,1053.15762,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,ESP,168,8,217.5,1740.0,0.605263,1053.15762,No Deposit,Transient
+Resort Hotel,2017-08-17,Direct,PRT,192,10,211.2,2112.0,0.492857,1040.913984,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,ESP,168,4,338.0,1352.0,0.737643,997.2933360000001,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,PRT,161,6,217.6,1305.6,0.737643,963.0667008,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,PRT,161,6,217.6,1305.6,0.737643,963.0667008,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,ESP,177,4,318.0,1272.0,0.737643,938.2818960000001,No Deposit,Transient
+City Hotel,2017-08-17,Online TA,GBR,173,10,127.71,1277.1,0.732713,935.7477722999998,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,ESP,84,7,270.0,1890.0,0.492857,931.49973,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,PRT,213,7,154.08,1078.56,0.851153,918.01957968,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,PRT,213,7,154.08,1078.56,0.851153,918.01957968,No Deposit,Transient
+City Hotel,2017-08-17,Online TA,RUS,195,12,118.43,1421.16,0.641487,911.65566492,No Deposit,Transient
+City Hotel,2017-08-17,Online TA,AUT,114,7,195.0,1365.0,0.641487,875.629755,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,ESP,209,6,185.75,1114.5,0.772727,861.2042415000001,No Deposit,Transient
+Resort Hotel,2017-08-17,Online TA,ESP,172,7,200.0,1400.0,0.605263,847.3682,No Deposit,Transient
+City Hotel,2017-08-17,Online TA,FRA,184,7,164.44,1151.08,0.732713,843.4112800399998,No Deposit,Transient
+Resort Hotel,2017-08-18,Online TA,RUS,177,9,200.0,1800.0,0.851153,1532.0754000000002,No Deposit,Transient
+Resort Hotel,2017-08-18,Online TA,ESP,185,7,200.0,1400.0,0.851153,1191.6142,No Deposit,Transient
+City Hotel,2017-08-18,Online TA,DEU,181,7,213.81,1496.67,0.756856,1132.7636695200001,No Deposit,Transient
+Resort Hotel,2017-08-18,Online TA,PRT,160,7,203.71,1425.97,0.729412,1040.1196296399999,No Deposit,Transient
+Resort Hotel,2017-08-18,Online TA,ESP,108,9,227.22,2044.98,0.488889,999.7682272200001,No Deposit,Transient
+Resort Hotel,2017-08-18,Direct,PRT,257,7,231.6,1621.2,0.605263,981.2523756,No Deposit,Transient
+City Hotel,2017-08-18,Online TA,FRA,184,7,177.81,1244.67,0.756856,942.03595752,No Deposit,Transient
+Resort Hotel,2017-08-18,Online TA,PRT,44,5,257.6,1288.0,0.653439,841.629432,No Deposit,Transient
+Resort Hotel,2017-08-18,Online TA,PRT,187,6,180.0,1080.0,0.772727,834.54516,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,IRL,220,10,244.0,2440.0,0.653439,1594.39116,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,PRT,64,7,331.43,2320.01,0.653439,1515.98501439,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,PRT,64,7,270.0,1890.0,0.729412,1378.5886799999998,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,ESP,187,6,248.0,1488.0,0.851153,1266.515664,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,PRT,216,7,204.0,1428.0,0.851153,1215.446484,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,PRT,125,7,230.0,1610.0,0.737643,1187.6052300000001,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,FRA,177,6,218.0,1308.0,0.851153,1113.3081240000001,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,PRT,211,7,203.75,1426.25,0.772727,1102.10188375,No Deposit,Transient
+Resort Hotel,2017-08-19,Offline TA/TO,PRT,122,7,253.8,1776.6,0.605263,1075.3102457999998,No Deposit,Transient-Party
+Resort Hotel,2017-08-19,Online TA,ITA,173,5,250.0,1250.0,0.851153,1063.94125,No Deposit,Transient
+City Hotel,2017-08-19,Online TA,AUT,186,7,218.43,1529.01,0.691099,1056.69728199,No Deposit,Transient
+Resort Hotel,2017-08-19,Offline TA/TO,PRT,129,7,247.2,1730.4,0.605263,1047.3470952,No Deposit,Transient-Party
+Resort Hotel,2017-08-19,Online TA,PRT,211,7,174.24,1219.68,0.851153,1038.13429104,No Deposit,Transient
+Resort Hotel,2017-08-19,Direct,PRT,249,8,210.5,1684.0,0.605263,1019.262892,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,USA,160,5,238.0,1190.0,0.851153,1012.87207,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,USA,160,5,238.0,1190.0,0.851153,1012.87207,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,PRT,203,7,184.5,1291.5,0.772727,997.9769205000001,No Deposit,Transient
+Resort Hotel,2017-08-19,Offline TA/TO,PRT,122,7,230.0,1610.0,0.608696,980.0005600000001,No Deposit,Transient-Party
+City Hotel,2017-08-19,Online TA,HUN,175,8,160.76,1286.08,0.756856,973.3773644799999,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,PRT,203,7,184.5,1291.5,0.737643,952.6659345,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,PRT,113,6,214.84,1289.04,0.729412,940.2412444799999,No Deposit,Transient
+Resort Hotel,2017-08-19,Direct,PRT,210,7,279.03,1953.21,0.470588,919.1571874800001,No Deposit,Transient
+Resort Hotel,2017-08-19,Offline TA/TO,PRT,129,7,205.6,1439.2,0.605263,871.0945096,No Deposit,Transient-Party
+Resort Hotel,2017-08-19,Direct,PRT,177,6,239.0,1434.0,0.605263,867.947142,No Deposit,Transient
+Resort Hotel,2017-08-19,Online TA,PRT,157,7,198.17,1387.19,0.605263,839.6147809700001,No Deposit,Transient-Party
+Resort Hotel,2017-08-19,Offline TA/TO,PRT,129,7,192.8,1349.6,0.605263,816.8629447999999,No Deposit,Transient-Party
+Resort Hotel,2017-08-19,Online TA,CHE,146,7,235.71,1649.97,0.488889,806.6521833300001,No Deposit,Transient-Party
+Resort Hotel,2017-08-19,Online TA,PRT,211,7,133.74,936.18,0.851153,796.83241554,No Deposit,Transient
+Resort Hotel,2017-08-19,Offline TA/TO,PRT,210,7,187.24,1310.68,0.605263,793.30610884,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,PRT,83,19,204.74,3890.06,0.729412,2837.4564447199996,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,AGO,60,11,255.45,2809.95,0.737643,2072.73994785,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,AGO,60,11,255.45,2809.95,0.737643,2072.73994785,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,PRT,360,6,343.0,2058.0,0.851153,1751.672874,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,CHE,195,13,180.0,2340.0,0.737643,1726.08462,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,PRT,90,7,289.6,2027.2,0.605263,1226.9891536,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,PRT,190,6,230.0,1380.0,0.851153,1174.59114,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,ITA,161,5,268.0,1340.0,0.851153,1140.54502,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,PRT,227,7,180.18,1261.26,0.851153,1073.5252327800001,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,PRT,83,7,291.43,2040.01,0.492857,1005.4332085699999,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,PRT,277,7,165.37,1157.59,0.772727,894.50104793,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,CHE,106,13,234.62,3050.06,0.286396,873.5249837599999,No Deposit,Transient
+City Hotel,2017-08-20,Online TA,FRA,171,5,235.0,1175.0,0.732713,860.937775,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,PRT,169,5,248.0,1240.0,0.653439,810.26436,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,PRT,169,5,262.0,1310.0,0.605263,792.89453,No Deposit,Transient
+Resort Hotel,2017-08-20,Online TA,PRT,84,5,262.0,1310.0,0.605263,792.89453,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,ESP,119,5,378.0,1890.0,0.818182,1546.3639799999999,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,202,9,196.5,1768.5,0.851153,1505.2640805,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,136,7,240.91,1686.37,0.653439,1101.93992643,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,193,7,184.5,1291.5,0.851153,1099.2640995000002,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,ESP,204,7,191.14,1337.98,0.772727,1033.89327146,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,106,7,225.6,1579.2,0.653439,1031.9108688000001,No Deposit,Transient
+Resort Hotel,2017-08-21,Offline TA/TO,PRT,202,9,187.4,1686.6,0.605263,1020.8365758,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,ESP,295,4,297.0,1188.0,0.851153,1011.1697640000001,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,21,4,340.0,1360.0,0.716867,974.93912,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,315,7,282.03,1974.21,0.492857,973.00321797,No Deposit,Transient
+Resort Hotel,2017-08-21,Direct,PRT,33,7,282.32,1976.24,0.488889,966.16199736,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,122,5,295.5,1477.5,0.653439,965.4561225,No Deposit,Transient
+City Hotel,2017-08-21,Online TA,ESP,144,9,195.0,1755.0,0.537297,942.956235,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,83,5,310.0,1550.0,0.605263,938.15765,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,83,5,310.0,1550.0,0.605263,938.15765,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,189,7,192.0,1344.0,0.653439,878.2220159999999,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,12,5,242.0,1210.0,0.716867,867.40907,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,169,5,234.0,1170.0,0.737643,863.04231,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,140,7,166.91,1168.37,0.729412,852.2230984399998,No Deposit,Transient
+Resort Hotel,2017-08-21,Online TA,PRT,189,6,232.0,1392.0,0.605263,842.5260959999999,No Deposit,Transient
+City Hotel,2017-08-21,Online TA,GBR,229,11,99.0,1089.0,0.756856,824.216184,No Deposit,Transient
+City Hotel,2017-08-22,Online TA,ITA,173,9,202.5,1822.5,0.732713,1335.3694424999999,No Deposit,Transient
+Resort Hotel,2017-08-22,Online TA,FRA,181,5,268.0,1340.0,0.716867,960.6017800000001,No Deposit,Transient
+Resort Hotel,2017-08-22,Online TA,PRT,9,7,210.0,1470.0,0.605263,889.73661,No Deposit,Transient
+Resort Hotel,2017-08-22,Online TA,PRT,34,7,330.57,2313.99,0.349515,808.77421485,No Deposit,Transient
+Resort Hotel,2017-08-23,Online TA,AGO,24,6,216.67,1300.02,0.772727,1004.56055454,No Deposit,Transient
+Resort Hotel,2017-08-23,Online TA,PRT,63,7,174.54,1221.78,0.729412,891.1809933599999,No Deposit,Transient
+City Hotel,2017-08-23,Online TA,PRT,161,4,282.5,1130.0,0.756856,855.2472799999999,No Deposit,Transient
+City Hotel,2017-08-23,Online TA,DEU,179,7,160.2,1121.4,0.732713,821.6643582,No Deposit,Transient
+Resort Hotel,2017-08-23,Online TA,PRT,76,7,231.69,1621.83,0.5,810.915,No Deposit,Transient
+Resort Hotel,2017-08-24,Online TA,PRT,66,7,276.46,1935.22,0.653439,1264.54822158,No Deposit,Transient
+Resort Hotel,2017-08-24,Online TA,PRT,58,7,239.14,1673.98,0.737643,1234.7996291400002,No Deposit,Transient
+Resort Hotel,2017-08-24,Online TA,PRT,198,7,204.75,1433.25,0.737643,1057.22682975,No Deposit,Transient
+City Hotel,2017-08-24,Online TA,FRA,158,7,202.5,1417.5,0.732713,1038.6206774999998,No Deposit,Transient
+City Hotel,2017-08-24,Online TA,PRT,139,11,117.41,1291.51,0.756856,977.48709256,No Deposit,Transient
+Resort Hotel,2017-08-24,Online TA,CHE,144,6,199.0,1194.0,0.818182,976.909308,No Deposit,Transient
+Resort Hotel,2017-08-24,Online TA,PRT,165,7,229.43,1606.01,0.605263,972.05843063,No Deposit,Transient
+Resort Hotel,2017-08-24,Offline TA/TO,PRT,162,7,208.05,1456.35,0.653439,951.63588765,No Deposit,Transient
+Resort Hotel,2017-08-24,Offline TA/TO,PRT,162,7,208.05,1456.35,0.653439,951.63588765,No Deposit,Transient
+Resort Hotel,2017-08-24,Direct,PRT,34,7,256.0,1792.0,0.488889,876.0890880000001,No Deposit,Transient
+Resort Hotel,2017-08-24,Direct,PRT,34,7,256.0,1792.0,0.488889,876.0890880000001,No Deposit,Transient
+Resort Hotel,2017-08-24,Online TA,PRT,163,7,188.03,1316.21,0.653439,860.06294619,No Deposit,Transient
+Resort Hotel,2017-08-24,Online TA,ESP,60,4,252.0,1008.0,0.851153,857.9622240000001,No Deposit,Transient
+Resort Hotel,2017-08-25,Online TA,PRT,353,8,249.0,1992.0,0.851153,1695.4967760000002,No Deposit,Transient
+Resort Hotel,2017-08-25,Online TA,ROU,167,6,331.33,1987.98,0.716867,1425.11725866,No Deposit,Transient
+Resort Hotel,2017-08-25,Online TA,MAR,21,7,277.71,1943.97,0.605263,1176.61311411,No Deposit,Transient
+Resort Hotel,2017-08-25,Online TA,PRT,172,7,259.0,1813.0,0.605263,1097.341819,No Deposit,Transient
+Resort Hotel,2017-08-25,Online TA,ESP,38,7,251.43,1760.01,0.605263,1065.2689326299999,No Deposit,Transient
+City Hotel,2017-08-25,Online TA,ESP,180,6,222.3,1333.8,0.732713,977.2925993999999,No Deposit,Transient
+Resort Hotel,2017-08-25,Online TA,IRL,110,5,214.0,1070.0,0.851153,910.7337100000001,No Deposit,Transient
+Resort Hotel,2017-08-25,Online TA,PRT,172,7,202.0,1414.0,0.605263,855.8418819999999,No Deposit,Transient
+Resort Hotel,2017-08-26,Online TA,RUS,181,14,205.14,2871.96,0.851153,2444.47736988,No Deposit,Transient
+Resort Hotel,2017-08-26,Online TA,ESP,47,7,340.86,2386.02,0.729412,1740.3916202399998,No Deposit,Transient
+Resort Hotel,2017-08-26,Online TA,PRT,29,6,342.17,2053.02,0.716867,1471.74228834,No Deposit,Transient
+Resort Hotel,2017-08-26,Online TA,PRT,142,7,289.86,2029.02,0.653439,1325.84079978,No Deposit,Transient
+Resort Hotel,2017-08-26,Online TA,PRT,66,7,284.86,1994.02,0.653439,1302.97043478,No Deposit,Transient
+Resort Hotel,2017-08-26,Online TA,PRT,19,10,245.3,2453.0,0.492857,1208.978221,No Deposit,Transient
+Resort Hotel,2017-08-26,Online TA,PRT,185,7,251.0,1757.0,0.608696,1069.4788720000001,No Deposit,Transient
+Resort Hotel,2017-08-26,Online TA,ESP,103,7,251.43,1760.01,0.605263,1065.2689326299999,No Deposit,Transient
+Resort Hotel,2017-08-26,Online TA,PRT,191,8,202.0,1616.0,0.653439,1055.957424,No Deposit,Transient
+Resort Hotel,2017-08-26,Offline TA/TO,PRT,184,7,173.0,1211.0,0.851153,1030.746283,No Deposit,Transient
+Resort Hotel,2017-08-26,Online TA,ESP,87,7,299.43,2096.01,0.488889,1024.7162328900001,No Deposit,Transient
+City Hotel,2017-08-26,Online TA,BEL,195,7,220.0,1540.0,0.655797,1009.92738,No Deposit,Transient
+Resort Hotel,2017-08-26,Offline TA/TO,PRT,142,7,169.0,1183.0,0.851153,1006.9139990000001,No Deposit,Transient
+Resort Hotel,2017-08-26,Offline TA/TO,PRT,142,7,169.0,1183.0,0.851153,1006.9139990000001,No Deposit,Transient
+Resort Hotel,2017-08-26,Offline TA/TO,PRT,142,7,155.0,1085.0,0.851153,923.5010050000001,No Deposit,Transient
+City Hotel,2017-08-26,Online TA,USA,79,5,240.0,1200.0,0.756856,908.2271999999999,No Deposit,Transient
+Resort Hotel,2017-08-26,Online TA,PRT,212,7,179.89,1259.23,0.716867,902.7004324100001,No Deposit,Transient
+City Hotel,2017-08-26,Online TA,USA,162,5,235.0,1175.0,0.756856,889.3058,No Deposit,Transient
+Resort Hotel,2017-08-26,Online TA,PRT,25,5,242.0,1210.0,0.729412,882.5885199999999,No Deposit,Transient
+City Hotel,2017-08-26,Online TA,ESP,9,7,232.57,1627.99,0.537297,874.7141430300001,No Deposit,Transient
+City Hotel,2017-08-26,Online TA,FRA,205,7,164.03,1148.21,0.732713,841.3083937299999,No Deposit,Transient
+City Hotel,2017-08-26,Online TA,ZAF,66,5,210.0,1050.0,0.756856,794.6988,No Deposit,Transient
+Resort Hotel,2017-08-27,Online TA,PRT,178,7,383.0,2681.0,0.716867,1921.920427,No Deposit,Transient
+Resort Hotel,2017-08-27,Offline TA/TO,PRT,305,10,131.4,1314.0,0.851153,1118.415042,No Deposit,Transient
+Resort Hotel,2017-08-27,Offline TA/TO,PRT,173,13,168.92,2195.96,0.5,1097.98,No Deposit,Transient-Party
+Resort Hotel,2017-08-27,Online TA,PRT,95,7,184.29,1290.03,0.772727,996.84101181,No Deposit,Transient
+Resort Hotel,2017-08-27,Offline TA/TO,PRT,20,7,182.0,1274.0,0.716867,913.2885580000001,No Deposit,Transient
+Resort Hotel,2017-08-27,Offline TA/TO,PRT,20,7,182.0,1274.0,0.716867,913.2885580000001,No Deposit,Transient
+Resort Hotel,2017-08-27,Online TA,PRT,47,5,253.8,1269.0,0.716867,909.7042230000001,No Deposit,Transient
+Resort Hotel,2017-08-27,Online TA,PRT,47,5,289.8,1449.0,0.605263,877.026087,No Deposit,Transient
+Resort Hotel,2017-08-27,Online TA,GBR,22,4,295.0,1180.0,0.737643,870.4187400000001,No Deposit,Transient
+Resort Hotel,2017-08-27,Online TA,ESP,99,6,236.67,1420.02,0.605263,859.4855652599999,No Deposit,Transient
+Resort Hotel,2017-08-27,Online TA,PRT,216,7,139.68,977.76,0.851153,832.2233572800001,No Deposit,Transient
+City Hotel,2017-08-27,Online TA,AUT,140,5,235.0,1175.0,0.691099,812.041325,No Deposit,Transient
+City Hotel,2017-08-27,Online TA,AUT,140,5,235.0,1175.0,0.691099,812.041325,No Deposit,Transient
+Resort Hotel,2017-08-28,Online TA,PRT,237,10,293.6,2936.0,0.851153,2498.985208,No Deposit,Transient
+City Hotel,2017-08-28,Online TA,MOZ,70,14,200.29,2804.06,0.691099,1937.88306194,No Deposit,Transient
+Resort Hotel,2017-08-28,Online TA,PRT,237,10,180.38,1803.8,0.851153,1535.3097814,No Deposit,Transient
+City Hotel,2017-08-28,Online TA,BEL,41,12,161.83,1941.96,0.641487,1245.7420945200001,No Deposit,Transient
+Resort Hotel,2017-08-28,Online TA,PRT,120,6,265.0,1590.0,0.729412,1159.76508,No Deposit,Transient
+Resort Hotel,2017-08-28,Online TA,PRT,120,6,297.0,1782.0,0.605263,1078.5786659999999,No Deposit,Transient
+Resort Hotel,2017-08-28,Online TA,ESP,59,8,180.0,1440.0,0.737643,1062.20592,No Deposit,Transient
+Resort Hotel,2017-08-28,Offline TA/TO,PRT,18,11,140.0,1540.0,0.653439,1006.29606,No Deposit,Group
+Resort Hotel,2017-08-28,Online TA,GBR,172,9,195.11,1755.99,0.492857,865.45196343,No Deposit,Transient
+Resort Hotel,2017-08-28,Online TA,ESP,13,6,232.5,1395.0,0.605263,844.341885,No Deposit,Transient
+Resort Hotel,2017-08-28,Online TA,PRT,80,6,215.33,1291.98,0.653439,844.23011922,No Deposit,Transient
+Resort Hotel,2017-08-28,Online TA,PRT,80,6,215.33,1291.98,0.653439,844.23011922,No Deposit,Transient
+Resort Hotel,2017-08-28,Online TA,ESP,26,4,286.25,1145.0,0.729412,835.17674,No Deposit,Transient
+Resort Hotel,2017-08-29,Online TA,ESP,72,6,328.0,1968.0,0.729412,1435.482816,No Deposit,Transient
+Resort Hotel,2017-08-29,Online TA,CHE,160,8,212.5,1700.0,0.818182,1390.9094,No Deposit,Transient
+Resort Hotel,2017-08-29,Online TA,PRT,41,8,177.5,1420.0,0.851153,1208.63726,No Deposit,Transient
+City Hotel,2017-08-29,Online TA,PRT,135,6,272.5,1635.0,0.641487,1048.831245,No Deposit,Transient
+Resort Hotel,2017-08-29,Online TA,AND,42,7,228.57,1599.99,0.605263,968.41474737,No Deposit,Transient
+Resort Hotel,2017-08-29,Online TA,ROU,246,7,171.25,1198.75,0.716867,859.34431625,No Deposit,Transient
+Resort Hotel,2017-08-30,Direct,PRT,262,10,189.42,1894.2,0.653439,1237.7441538,No Deposit,Transient
+Resort Hotel,2017-08-30,Online TA,PRT,161,7,213.43,1494.01,0.772727,1154.46186527,No Deposit,Transient
+Resort Hotel,2017-08-30,Online TA,PRT,25,7,222.86,1560.02,0.737643,1150.73783286,No Deposit,Transient
+Resort Hotel,2017-08-30,Online TA,IRL,62,7,175.71,1229.97,0.716867,881.72490399,No Deposit,Transient
+City Hotel,2017-08-30,Online TA,ESP,215,7,162.0,1134.0,0.732713,830.896542,No Deposit,Transient
+City Hotel,2017-08-30,Online TA,ESP,215,7,162.0,1134.0,0.732713,830.896542,No Deposit,Transient
+Resort Hotel,2017-08-31,Online TA,GBR,350,11,219.45,2413.95,0.729412,1760.7640973999999,No Deposit,Transient
+City Hotel,2017-08-31,Online TA,RUS,218,7,162.0,1134.0,0.964286,1093.5003239999999,No Deposit,Transient
+City Hotel,2017-08-31,Online TA,RUS,210,7,189.0,1323.0,0.810811,1072.702953,No Deposit,Transient
+Resort Hotel,2017-08-31,Online TA,DEU,29,7,175.0,1225.0,0.737643,903.6126750000001,No Deposit,Transient
