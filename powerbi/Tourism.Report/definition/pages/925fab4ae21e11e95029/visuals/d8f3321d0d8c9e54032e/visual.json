@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "d8f3321d0d8c9e54032e",
+  "position": {
+    "x": 296.74957098565142,
+    "y": 0,
+    "z": 10250,
+    "height": 101.19402985074626,
+    "width": 185.37313432835819,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "Cancelled bookings",
+    "groupMode": "ScaleMode"
+  }
+}

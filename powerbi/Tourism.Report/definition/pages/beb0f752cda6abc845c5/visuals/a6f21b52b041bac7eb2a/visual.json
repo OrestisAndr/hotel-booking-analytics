@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "a6f21b52b041bac7eb2a",
+  "position": {
+    "x": 1094.6268656716416,
+    "y": 0,
+    "z": 13015,
+    "height": 101.19402985074626,
+    "width": 185.37313432835819,
+    "tabOrder": 3000
+  },
+  "visualGroup": {
+    "displayName": "Avg Length of stay",
+    "groupMode": "ScaleMode"
+  }
+}

@@ -1,0 +1,96 @@
+table Calendar
+	lineageTag: b0586e72-57a6-4e7c-9beb-fef5df83c1fe
+
+	column Date
+		formatString: General Date
+		lineageTag: 6a4f2ee5-6244-4265-9b8d-6c046bbf9591
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: 95aa15a1-687c-4df5-b177-5ee6cc6afaad
+			defaultHierarchy: LocalDateTable_609b04fc-9387-4e68-9396-31079574ea58.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		formatString: 0
+		lineageTag: 50d7caf9-d4d5-4bd9-85de-388a90deddc4
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Year]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Number'
+		formatString: 0
+		lineageTag: 784cf049-60c3-4d7d-a885-b4c43a3df181
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Month Number]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Name'
+		lineageTag: 447663c8-1a62-4b7f-b2c7-11a05bb0833f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month Name]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Short'
+		lineageTag: 8954de1b-7e25-45f8-8b1e-d5b043c95dd9
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month Short]
+		sortByColumn: 'Month Number'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year-Month
+		lineageTag: 4f882b71-8388-406c-b91a-307131eb8114
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Year-Month]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		lineageTag: 16d497a4-625a-40ab-bde3-b0810754793e
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Quarter]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Day of Week'
+		lineageTag: 7abb2908-335e-40b6-a63d-b936d93f212b
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Day of Week]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendar = calculated
+		mode: import
+		source =
+				
+				ADDCOLUMNS(
+				    CALENDAR(
+				        MIN(db_hotel_bookings[Arrival Date]),
+				        MAX(db_hotel_bookings[Arrival Date])
+				    ),
+				    "Year", YEAR([Date]),
+				    "Month Number", MONTH([Date]),
+				    "Month Name", FORMAT([Date], "MMMM"),
+				    "Month Short", FORMAT([Date], "MMM"),
+				    "Year-Month", FORMAT([Date], "YYYY-MM"),
+				    "Quarter", "Q" & FORMAT([Date], "Q"),
+				    "Day of Week", FORMAT([Date], "dddd")
+				)
+
+	annotation PBI_Id = 1b8fb6d46a074023b4c90fd3fc61bce8
+

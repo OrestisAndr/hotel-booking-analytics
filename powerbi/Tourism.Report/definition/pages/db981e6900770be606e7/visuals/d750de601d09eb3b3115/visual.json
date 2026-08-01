@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "d750de601d09eb3b3115",
+  "position": {
+    "x": 384.00000000000006,
+    "y": 432,
+    "z": 4000,
+    "height": 48.000000000000007,
+    "width": 48.000000000000007,
+    "tabOrder": 3000
+  },
+  "visualGroup": {
+    "displayName": "Toogle",
+    "groupMode": "ScaleMode"
+  }
+}

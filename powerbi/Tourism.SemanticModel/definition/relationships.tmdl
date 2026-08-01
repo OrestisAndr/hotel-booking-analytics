@@ -1,0 +1,9 @@
+relationship 95aa15a1-687c-4df5-b177-5ee6cc6afaad
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar.Date
+	toColumn: LocalDateTable_609b04fc-9387-4e68-9396-31079574ea58.Date
+
+relationship 07ecebcd-3eb9-734a-1c31-1aaf6f409dea
+	fromColumn: db_hotel_bookings.'Arrival Date'
+	toColumn: Calendar.Date
+

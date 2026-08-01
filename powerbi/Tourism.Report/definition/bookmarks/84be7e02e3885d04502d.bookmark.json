@@ -1,0 +1,883 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "displayName": "Toogle Off",
+  "name": "84be7e02e3885d04502d",
+  "options": {
+    "targetVisualNames": [
+      "9273178731b63ee5c1d2"
+    ]
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "db981e6900770be606e7",
+    "sections": {
+      "db981e6900770be606e7": {
+        "visualContainers": {
+          "7a4b562b723e016c890b": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "0ef9fa96409b16998c14",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Month Short"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "a46310f0e124ce040d10",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Avg ADR"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "46e2e237d02be0420706",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "hotel"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "areaChart",
+              "objects": {},
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Month Short"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "0bada3119518b8c88030": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "13860167a72ec9298259": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "e24b811038a6773503a4",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Avg Lead Time"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "674345d4db17ac2803d0",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Cancellation Rate %"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "dee5426d0e0bca996a16",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "Lead Time Bucket"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "217fef86190addae79b7",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Total Bookings"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "scatterChart",
+              "objects": {},
+              "activeProjections": {
+                "X": [
+                  {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Avg Lead Time"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "0af09b8f17a7d7009063": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "e0ab609c0015553b0ac8": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "0c518710adcce140cdb5",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "db_hotel_bookings",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "d"
+                                        }
+                                      },
+                                      "Property": "market_segment"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'Aviation'"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'Undefined'"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'Complementary'"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "market_segment"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "9d9bb7e030db917cc54c",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Total Bookings"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "02cb9830130770016d90",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "Booking Status"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "c7ec2dfc07cd80025be3",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Avg ADR"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "93186a16962b5ab0b056",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Actual Revenue"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "barChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Total Bookings"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "market_segment"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "a1fc75cf12b1dd9023c4": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "0c770f5602e94563c742",
+                  "type": "TopN",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "subquery",
+                        "Expression": {
+                          "Subquery": {
+                            "Query": {
+                              "Version": 2,
+                              "From": [
+                                {
+                                  "Name": "d",
+                                  "Entity": "db_hotel_bookings",
+                                  "Type": 0
+                                },
+                                {
+                                  "Name": "_",
+                                  "Entity": "_Measures",
+                                  "Type": 0
+                                }
+                              ],
+                              "Select": [
+                                {
+                                  "Column": {
+                                    "Expression": {
+                                      "SourceRef": {
+                                        "Source": "d"
+                                      }
+                                    },
+                                    "Property": "country"
+                                  },
+                                  "Name": "field"
+                                }
+                              ],
+                              "OrderBy": [
+                                {
+                                  "Direction": 2,
+                                  "Expression": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "_"
+                                        }
+                                      },
+                                      "Property": "Total Bookings"
+                                    }
+                                  }
+                                }
+                              ],
+                              "Top": 5
+                            }
+                          }
+                        },
+                        "Type": 2
+                      },
+                      {
+                        "Name": "d",
+                        "Entity": "db_hotel_bookings",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "d"
+                                    }
+                                  },
+                                  "Property": "country"
+                                }
+                              }
+                            ],
+                            "Table": {
+                              "SourceRef": {
+                                "Source": "subquery"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "country"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "3cefcfb6b8ab7d51ba54",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Total Bookings"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "86e6066f7944895040bc",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "Booking Status"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "2f01dcc776e1b6e38014",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Avg ADR"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "5139d2cdb99656125508",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Actual Revenue"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "barChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Total Bookings"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "country"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "3069c8b0b06a2db9d998": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "2d2cecc131ea80e9e6c2": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "b1b5d8bbee217018e06b": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "93639033ea17ea116486": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "7ca3fd8bcac0e981b9be",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "customer_type"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "07b1c05c5902e996e1d7",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Actual Revenue"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "2cfbb72241dda3b052d6",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Total Bookings"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "donutChart",
+              "objects": {},
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "customer_type"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "e1a3cf9f646b0558ca4c": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "9273178731b63ee5c1d2": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "322874a105be605006a0",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "db_hotel_bookings",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "d"
+                                        }
+                                      },
+                                      "Property": "Guest Category"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'Other'"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "Guest Category"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "766b5ca6002c8c806091",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Total Bookings"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "9c08f831c46a113d31e0",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "hotel"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "cbfd2e6d008b7371eb1d",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Avg ADR"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "87d215cbe031503365d1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Cancellation Rate %"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "a24a9db3b3b83a075018",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Actual Revenue"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "columnChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Total Bookings"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "db_hotel_bookings"
+                        }
+                      },
+                      "Property": "Guest Category"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "67895ed4d81c99859c10": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          }
+        },
+        "visualContainerGroups": {
+          "dc167723c5cd47c74a86": {
+            "isHidden": false
+          },
+          "77e5adf6e4b4c309b10a": {
+            "isHidden": false
+          },
+          "f1336b1e250b1738ec10": {
+            "isHidden": false
+          },
+          "0303a0ed1b3d1c7c01b3": {
+            "isHidden": false
+          },
+          "47c0ed6000d1a0618ca2": {
+            "isHidden": false
+          },
+          "7b9ca66ba7307c99768b": {
+            "isHidden": false
+          },
+          "61751040a6380c931216": {
+            "isHidden": false
+          },
+          "6dd097a26e0b5a92e07a": {
+            "isHidden": false
+          },
+          "2dc703c7c0310216dd04": {
+            "isHidden": false
+          },
+          "0e3003f3e0e388484250": {
+            "isHidden": false
+          }
+        }
+      }
+    },
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "true"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

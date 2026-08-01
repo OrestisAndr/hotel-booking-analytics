@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "11c62e7c960a6e6e6e10",
+  "position": {
+    "x": 300.27361832143629,
+    "y": 0,
+    "z": 5000,
+    "height": 101.19402985074626,
+    "width": 185.37313432835819,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "KPI Actual Revenue",
+    "groupMode": "ScaleMode"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "481461ed0a0b8acba3a6",
+  "position": {
+    "x": 895.15754200014385,
+    "y": 0,
+    "z": 14000,
+    "height": 101.19402985074626,
+    "width": 185.37313432835819,
+    "tabOrder": 9000
+  },
+  "visualGroup": {
+    "displayName": "KPI Avg Lead Time",
+    "groupMode": "ScaleMode"
+  }
+}

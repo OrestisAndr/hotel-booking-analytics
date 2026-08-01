@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "2cf7ca0606bb1c0c5dea",
+  "position": {
+    "x": 97.653381642512073,
+    "y": 0,
+    "z": 4000,
+    "height": 101,
+    "width": 185,
+    "tabOrder": 6000
+  },
+  "visualGroup": {
+    "displayName": "KPI Total Bookings",
+    "groupMode": "ScaleMode"
+  }
+}

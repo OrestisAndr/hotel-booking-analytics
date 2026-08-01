@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Tourism"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "42d9279f-ecb2-4c95-a6b2-155fb9b1a8c9"
+  }
+}

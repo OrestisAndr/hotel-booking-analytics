@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "777dc73d2c8db655d8e6",
+  "position": {
+    "x": 695.68821832864649,
+    "y": 0,
+    "z": 13062,
+    "height": 101.19402985074626,
+    "width": 185.37313432835819,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "Avg Rev per Booking",
+    "groupMode": "ScaleMode"
+  }
+}

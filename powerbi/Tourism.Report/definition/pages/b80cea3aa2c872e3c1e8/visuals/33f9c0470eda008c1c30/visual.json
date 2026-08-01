@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "33f9c0470eda008c1c30",
+  "position": {
+    "x": 706.2603603360011,
+    "y": 0,
+    "z": 7000,
+    "height": 101.19402985074626,
+    "width": 185.37313432835819,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "KPI Cancellation rate %",
+    "groupMode": "ScaleMode"
+  }
+}

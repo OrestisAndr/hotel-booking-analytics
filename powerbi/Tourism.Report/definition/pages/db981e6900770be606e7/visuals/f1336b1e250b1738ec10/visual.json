@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "f1336b1e250b1738ec10",
+  "position": {
+    "x": 96,
+    "y": 104,
+    "z": 6000,
+    "height": 288,
+    "width": 584,
+    "tabOrder": 6000
+  },
+  "visualGroup": {
+    "displayName": "Line Chart ",
+    "groupMode": "ScaleMode"
+  }
+}

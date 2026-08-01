@@ -1,0 +1,114 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY26SU05",
+      "reportVersionAtImport": {
+        "visual": "2.9.0",
+        "report": "3.3.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY26SU05",
+          "path": "BaseThemes/CY26SU05.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "cancelled_(1)_(1)21082775384695918.png",
+          "path": "cancelled_(1)_(1)21082775384695918.png",
+          "type": "Image"
+        },
+        {
+          "name": "earning_(1)45327964002676.png",
+          "path": "earning_(1)45327964002676.png",
+          "type": "Image"
+        },
+        {
+          "name": "home_(1)9763695346212437.png",
+          "path": "home_(1)9763695346212437.png",
+          "type": "Image"
+        },
+        {
+          "name": "toogle_off03261672228396062.png",
+          "path": "toogle_off03261672228396062.png",
+          "type": "Image"
+        },
+        {
+          "name": "toogle_off2969459714060493.png",
+          "path": "toogle_off2969459714060493.png",
+          "type": "Image"
+        },
+        {
+          "name": "toogle_on06219587735791443.png",
+          "path": "toogle_on06219587735791443.png",
+          "type": "Image"
+        },
+        {
+          "name": "toogle_on6917244975186401.png",
+          "path": "toogle_on6917244975186401.png",
+          "type": "Image"
+        },
+        {
+          "name": "toogle_on7571121635780272.png",
+          "path": "toogle_on7571121635780272.png",
+          "type": "Image"
+        },
+        {
+          "name": "toogle_on9664871647701709.png",
+          "path": "toogle_on9664871647701709.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

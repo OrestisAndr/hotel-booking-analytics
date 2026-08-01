@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "e4049726ebc187a91877",
+  "position": {
+    "x": 695.68821832864637,
+    "y": 0,
+    "z": 15000,
+    "height": 101.19402985074626,
+    "width": 185.37313432835819,
+    "tabOrder": 4000
+  },
+  "visualGroup": {
+    "displayName": "KPI Avg ADR",
+    "groupMode": "ScaleMode"
+  }
+}

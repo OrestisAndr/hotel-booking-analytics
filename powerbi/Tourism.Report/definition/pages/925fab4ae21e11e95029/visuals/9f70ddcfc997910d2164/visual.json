@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "9f70ddcfc997910d2164",
+  "position": {
+    "x": 97,
+    "y": 0,
+    "z": 10500,
+    "height": 101,
+    "width": 185,
+    "tabOrder": 9000
+  },
+  "visualGroup": {
+    "displayName": "Lost Revenue",
+    "groupMode": "ScaleMode"
+  }
+}

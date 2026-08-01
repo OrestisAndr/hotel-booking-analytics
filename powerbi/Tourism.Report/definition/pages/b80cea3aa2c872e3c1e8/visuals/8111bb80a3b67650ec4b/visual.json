@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "8111bb80a3b67650ec4b",
+  "position": {
+    "x": 96,
+    "y": 432,
+    "z": 1000,
+    "height": 288,
+    "width": 592,
+    "tabOrder": 7000
+  },
+  "visualGroup": {
+    "displayName": "Matrix Left",
+    "groupMode": "ScaleMode"
+  }
+}

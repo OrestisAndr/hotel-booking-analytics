@@ -1,0 +1,61 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 43
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 395.125
+          },
+          "nodeIndex": "db_hotel_bookings",
+          "nodeLineageTag": "9b001d61-8cb7-4e91-aece-1596c251ee87",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Calendar",
+          "nodeLineageTag": "b0586e72-57a6-4e7c-9beb-fef5df83c1fe",
+          "size": {
+            "height": 308,
+            "width": 243
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 368,
+            "y": 43
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "38b83af0-7a06-4d6e-b410-139ef3d25d06",
+          "size": {
+            "height": 383,
+            "width": 251
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

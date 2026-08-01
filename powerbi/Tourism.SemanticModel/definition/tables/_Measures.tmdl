@@ -1,0 +1,169 @@
+table _Measures
+	lineageTag: 38b83af0-7a06-4d6e-b410-139ef3d25d06
+
+	measure 'Total Bookings' = COUNTROWS(db_hotel_bookings)
+		formatString: #,0
+		lineageTag: 69bf9dfc-78df-4cef-a73b-5ddad54c7aa0
+
+	measure 'Cancellation Rate %' =
+			
+			DIVIDE(
+			    CALCULATE(COUNTROWS(db_hotel_bookings), db_hotel_bookings[is_canceled] = 1),
+			    [Total Bookings]
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 0d2c362d-ed78-414c-96d2-7839ff6c1323
+
+	measure 'Avg ADR' =
+			
+			DIVIDE([Actual Revenue], [Total Nights Sold], 0)
+		formatString: "€"\ #,0.00;-"€"\ #,0.00;"€"\ #,0.00
+		lineageTag: 0f27ea05-68d3-4d9f-99db-f5a83da50af7
+
+	measure 'Avg Lead Time' = AVERAGE(db_hotel_bookings[lead_time])
+		lineageTag: 3229cf36-66a8-4382-9f31-64fd99609f44
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Nights' =
+			
+			SUMX(
+			    db_hotel_bookings,
+			    db_hotel_bookings[stays_in_weekend_nights] + db_hotel_bookings[stays_in_week_nights]
+			)
+		formatString: 0
+		lineageTag: 0426b274-18a8-4826-a29b-33b82a84225e
+
+	measure 'Cancelled Bookings' =
+			
+			CALCULATE(COUNTROWS(db_hotel_bookings), db_hotel_bookings[is_canceled] = 1)
+		formatString: #,0
+		lineageTag: fb209f0e-dbf9-42f9-ab6b-4418f1bc9784
+
+	measure 'Avg Lead Time Cancelled' =
+			
+			CALCULATE([Avg Lead Time], db_hotel_bookings[is_canceled] = 1)
+		lineageTag: a190b16f-a87b-4883-a898-c02d43f119de
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Revenue' =
+			
+			SUMX(
+			    db_hotel_bookings,
+			    db_hotel_bookings[adr] * (db_hotel_bookings[stays_in_weekend_nights] + db_hotel_bookings[stays_in_week_nights])
+			)
+		formatString: 0
+		lineageTag: a21213f9-008c-4c74-81aa-d146d47a5a69
+
+	measure 'Actual Revenue' =
+			
+			CALCULATE([Total Revenue], db_hotel_bookings[is_canceled] = 0)
+		formatString: "€"\ #,0;-"€"\ #,0;"€"\ #,0
+		lineageTag: e568aeff-20cf-4122-b3d8-9e14beb0fb0c
+
+	measure 'Total Guests' =
+			
+			SUMX(
+			    db_hotel_bookings,
+			    db_hotel_bookings[adults] + db_hotel_bookings[children] + db_hotel_bookings[babies]
+			)
+		formatString: 0
+		lineageTag: 12f6f8ac-4e62-4cfc-a178-f2da9601523f
+
+	measure 'Lost Revenue' =
+			
+			CALCULATE(
+			    [Total Revenue],
+			    db_hotel_bookings[is_canceled] = 1
+			)
+		formatString: "€"\ #,0.00;-"€"\ #,0.00;"€"\ #,0.00
+		lineageTag: d0e6ac4e-47de-4e75-9e6a-d4145706a9a2
+
+	measure 'Avg Lead Time Confirmed' =
+			
+			CALCULATE(
+			    AVERAGE(db_hotel_bookings[lead_time]),
+			    db_Hotel_Bookings[is_canceled] = 0
+			)
+		lineageTag: bddd7b6b-401d-455c-bb65-ea290595c309
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Cancelled Bookings' =
+			
+			CALCULATE(
+			    COUNTROWS(db_hotel_bookings),
+			    db_hotel_bookings[is_canceled] = 1
+			)
+		formatString: 0
+		lineageTag: b9ad4be9-d6d4-4691-85dc-e9e1b17ae3bd
+
+	measure 'No Deposit Cancelled %' =
+			
+			DIVIDE(
+			    CALCULATE([Total Cancelled Bookings], db_hotel_bookings[deposit_type] = "No Deposit"),
+			    [Total Cancelled Bookings]
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 8882f5af-7fb3-41f9-ab06-88132b577fc2
+
+	measure 'Avg Lost Revenue per Cancel' =
+			
+			DIVIDE([Lost Revenue], [Total Cancelled Bookings])
+		lineageTag: c54c472e-f645-4322-95ca-90cae37f1452
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Realized Bookings' =
+			
+			CALCULATE(
+			    COUNTROWS('db_hotel_bookings'),
+			    'db_hotel_bookings'[is_canceled] = 0
+			)
+		formatString: #,0
+		lineageTag: e442b873-bdf4-4f0c-9845-2901727868fa
+
+	measure 'Total Nights Sold' =
+			
+			CALCULATE(
+			    SUMX('db_hotel_bookings', 'db_hotel_bookings'[stays_in_weekend_nights] + 'db_hotel_bookings'[stays_in_week_nights]),
+			    'db_hotel_bookings'[is_canceled] = 0
+			)
+		formatString: 0
+		lineageTag: edcf4dd9-d626-446a-a7be-9b1165b16ba3
+
+	measure 'Avg Rev Per Booking' =
+			
+			DIVIDE([Actual Revenue], [Realized Bookings], 0)
+		formatString: "€"\ #,0.00;-"€"\ #,0.00;"€"\ #,0.00
+		lineageTag: 60124bdb-2d65-44c6-a957-d8e1b74853a6
+
+	measure 'Rev Realization %' =
+			
+			DIVIDE([Actual Revenue], [Total Revenue], 0)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 0e50bfac-20ad-4d34-bef1-07098915097e
+
+	measure 'Avg Length of Stay' =
+			
+			DIVIDE([Total Nights Sold], [Realized Bookings], 0)
+		lineageTag: 61a3a42c-5a26-43b6-9391-d0b00caa3f4e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Value
+		formatString: 0
+		lineageTag: 4c27783d-2ad5-4e12-9d6a-19e0d105e0df
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Measures = calculated
+		mode: import
+		source = ROW("Value", BLANK())
+
+	annotation PBI_Id = 7ead313ea44b435a8105bcbda2ada615
+

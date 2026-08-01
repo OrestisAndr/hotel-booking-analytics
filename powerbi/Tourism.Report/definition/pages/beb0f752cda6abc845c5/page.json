@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "beb0f752cda6abc845c5",
+  "displayName": "Revenue",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "pageBinding": {
+    "name": "24c9a521e87a087ee920",
+    "type": "Default",
+    "parameters": []
+  }
+}

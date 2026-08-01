@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "2dc703c7c0310216dd04",
+  "position": {
+    "x": 696,
+    "y": 104,
+    "z": 5000,
+    "height": 288,
+    "width": 584,
+    "tabOrder": 8000
+  },
+  "visualGroup": {
+    "displayName": "Scatter chart",
+    "groupMode": "ScaleMode"
+  }
+}
