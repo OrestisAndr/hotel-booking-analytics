@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "84f2378ca38c9e90e0d9",
+  "position": {
+    "x": 294.42686567164174,
+    "y": 0,
+    "z": 8000,
+    "height": 101.19402985074626,
+    "width": 185.37313432835819,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "KPI Predicted Cancellations",
+    "groupMode": "ScaleMode"
+  }
+}

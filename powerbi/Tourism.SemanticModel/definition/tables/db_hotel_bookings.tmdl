@@ -369,7 +369,7 @@ table db_hotel_bookings
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("C:\Users\AndroulakisOrestis\iCloudDrive\Documents\Data_Analyst\Projects\inProgress\Tourism (Power BI)\db_hotel_bookings.csv"),[Delimiter=",", Columns=32, Encoding=1253, QuoteStyle=QuoteStyle.None]),
+				    Source = Csv.Document(File.Contents("\\Mac\iCloud\Documents\Data_Analyst\Projects\inProgress\hotel-booking-analytics\data\hotel_bookings.csv"),[Delimiter=",", Columns=32, Encoding=1253, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"is_canceled", Int64.Type}, {"lead_time", Int64.Type}, {"arrival_date_year", Int64.Type}, {"arrival_date_week_number", Int64.Type}, {"arrival_date_day_of_month", Int64.Type}, {"stays_in_weekend_nights", Int64.Type}, {"stays_in_week_nights", Int64.Type}, {"adults", Int64.Type}, {"children", Int64.Type}, {"babies", Int64.Type}, {"is_repeated_guest", Int64.Type}, {"previous_cancellations", Int64.Type}, {"previous_bookings_not_canceled", Int64.Type}, {"booking_changes", Int64.Type}, {"days_in_waiting_list", Int64.Type}, {"required_car_parking_spaces", Int64.Type}, {"total_of_special_requests", Int64.Type}}),
 				    #"Changed Type with Locale" = Table.TransformColumnTypes(#"Changed Type", {{"adr", type text}}, "en-US"),
@@ -388,5 +388,5 @@ table db_hotel_bookings
 
 	annotation PBI_NavigationStepName = Navigation
 
-	annotation PBI_ResultType = Table
+	annotation PBI_ResultType = Exception
 

@@ -1,0 +1,123 @@
+table call_list
+	lineageTag: a957ba96-4338-4bb8-9945-efcf8b330c7f
+
+	column hotel
+		dataType: string
+		lineageTag: 2966ff73-103e-4a28-bc77-ba9fad405cff
+		summarizeBy: none
+		sourceColumn: hotel
+
+		annotation SummarizationSetBy = Automatic
+
+	column arrival_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: bdbac07f-9f08-4231-9ff5-501d38ad8321
+		summarizeBy: none
+		sourceColumn: arrival_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column market_segment
+		dataType: string
+		lineageTag: 5e685dde-9813-411a-9cb9-db9661e4ce13
+		summarizeBy: none
+		sourceColumn: market_segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		lineageTag: 0a1b34bc-c449-464e-b566-a9732133a708
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column lead_time
+		dataType: int64
+		formatString: 0
+		lineageTag: e8bbf126-a871-49c7-9d58-631b2dfda524
+		summarizeBy: sum
+		sourceColumn: lead_time
+
+		annotation SummarizationSetBy = Automatic
+
+	column nights
+		dataType: int64
+		formatString: 0
+		lineageTag: 698d1364-4aca-40e9-b499-8ef1c6e03fa9
+		summarizeBy: sum
+		sourceColumn: nights
+
+		annotation SummarizationSetBy = Automatic
+
+	column adr
+		dataType: double
+		lineageTag: 759fa115-7275-49e8-8186-1b3487883ba0
+		summarizeBy: sum
+		sourceColumn: adr
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column booking_value
+		dataType: double
+		lineageTag: 805101a8-0e08-4eaa-bd1e-5bf703e7b079
+		summarizeBy: sum
+		sourceColumn: booking_value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column cancel_probability
+		dataType: double
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 6e7e113d-f117-4f7f-bab2-7d9d1190a530
+		summarizeBy: sum
+		sourceColumn: cancel_probability
+
+		annotation SummarizationSetBy = Automatic
+
+	column expected_loss
+		dataType: double
+		lineageTag: 1b685b6a-37e4-4f64-bc83-cca5f2970b2b
+		summarizeBy: sum
+		sourceColumn: expected_loss
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column deposit_type
+		dataType: string
+		lineageTag: 899fea26-7d49-4e91-9bb0-7d38097e19c6
+		summarizeBy: none
+		sourceColumn: deposit_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_type
+		dataType: string
+		lineageTag: aa49a389-9849-43e4-a7c5-beec5c2cbfbe
+		summarizeBy: none
+		sourceColumn: customer_type
+
+		annotation SummarizationSetBy = Automatic
+
+	partition call_list = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("\\Mac\iCloud\Documents\Data_Analyst\Projects\inProgress\hotel-booking-analytics\outputs\call_list.csv"),[Delimiter=",", Columns=12, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"hotel", type text}, {"arrival_date", type date}, {"market_segment", type text}, {"country", type text}, {"lead_time", Int64.Type}, {"nights", Int64.Type}, {"adr", type number}, {"booking_value", type number}, {"cancel_probability", type number}, {"expected_loss", type number}, {"deposit_type", type text}, {"customer_type", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

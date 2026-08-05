@@ -1,0 +1,120 @@
+table nightly_forecast
+	lineageTag: 4cfa227c-316e-4809-a9c0-02c49fc3a7f6
+
+	column hotel
+		dataType: string
+		lineageTag: 4b79d065-5fde-4ceb-b98a-9ece93bed1ce
+		summarizeBy: none
+		sourceColumn: hotel
+
+		annotation SummarizationSetBy = Automatic
+
+	column night
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 3aafcfb1-0827-42db-b3b0-e2d156a3f9ec
+		summarizeBy: none
+		sourceColumn: night
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column bookings_held
+		dataType: int64
+		formatString: 0
+		lineageTag: 133c44fb-4560-496f-841a-3ff48d9caff8
+		summarizeBy: sum
+		sourceColumn: bookings_held
+
+		annotation SummarizationSetBy = Automatic
+
+	column expected_arrivals
+		dataType: double
+		lineageTag: 7e59afce-02da-4896-9826-a094e4fe4069
+		summarizeBy: sum
+		sourceColumn: expected_arrivals
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column uncertainty
+		dataType: double
+		lineageTag: a667e0c5-6c9e-4bf6-97fa-7b6a1c06b99e
+		summarizeBy: sum
+		sourceColumn: uncertainty
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column capacity
+		dataType: int64
+		formatString: 0
+		lineageTag: af76d625-b495-440d-96e1-b5fd8a89ce09
+		summarizeBy: sum
+		sourceColumn: capacity
+
+		annotation SummarizationSetBy = Automatic
+
+	column rooms_to_release
+		dataType: int64
+		formatString: 0
+		lineageTag: 7f0c2fd4-f746-4e4d-86af-38a5eb358b35
+		summarizeBy: sum
+		sourceColumn: rooms_to_release
+
+		annotation SummarizationSetBy = Automatic
+
+	column projected_occupancy_%
+		dataType: double
+		lineageTag: 75f3e934-e937-4187-8ed8-8e6ca60ec4d7
+		summarizeBy: sum
+		sourceColumn: projected_occupancy_%
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column actual_arrivals
+		dataType: int64
+		formatString: 0
+		lineageTag: b0968f62-0380-4e52-a212-7e1c6edc48c7
+		summarizeBy: sum
+		sourceColumn: actual_arrivals
+
+		annotation SummarizationSetBy = Automatic
+
+	column mean_adr
+		dataType: double
+		lineageTag: 71541aae-19cd-4b85-ba0a-3d7ee834179d
+		summarizeBy: sum
+		sourceColumn: mean_adr
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column expected_cancellations
+		dataType: double
+		lineageTag: 487066e9-0d31-4f0a-b65f-3703c7178e38
+		summarizeBy: sum
+		sourceColumn: expected_cancellations
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition nightly_forecast = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("\\Mac\iCloud\Documents\Data_Analyst\Projects\inProgress\hotel-booking-analytics\outputs\nightly_forecast.csv"),[Delimiter=",", Columns=11, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"hotel", type text}, {"night", type date}, {"bookings_held", Int64.Type}, {"expected_arrivals", type number}, {"uncertainty", type number}, {"capacity", Int64.Type}, {"rooms_to_release", Int64.Type}, {"projected_occupancy_%", type number}, {"actual_arrivals", Int64.Type}, {"mean_adr", type number}, {"expected_cancellations", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

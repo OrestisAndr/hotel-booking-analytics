@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "ef66cdd06b0275190c46",
+  "position": {
+    "x": 688,
+    "y": 400.00000000000006,
+    "z": 10000,
+    "height": 319.99999999999994,
+    "width": 592,
+    "tabOrder": 10000
+  },
+  "visualGroup": {
+    "displayName": "Line & Clustered Bar Chart ",
+    "groupMode": "ScaleMode"
+  }
+}

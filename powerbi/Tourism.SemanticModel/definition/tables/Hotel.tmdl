@@ -1,0 +1,17 @@
+table Hotel
+	lineageTag: a90e9eba-39b8-4962-8559-ddbcca97c7e9
+
+	column hotel
+		lineageTag: 00c5f63f-fcfb-4c8b-b2d2-747e4752bafb
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: db_hotel_bookings[hotel]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Hotel = calculated
+		mode: import
+		source = DISTINCT(db_hotel_bookings[hotel])
+
+	annotation PBI_Id = bb1f7a27f239454c9a4b49bd4116eca7
+

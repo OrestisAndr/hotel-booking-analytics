@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "d085689a0625c765a876",
+  "position": {
+    "x": 694.52686567164153,
+    "y": 0,
+    "z": 6000,
+    "height": 101.19402985074626,
+    "width": 185.37313432835819,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "KPI Revenue at Risk",
+    "groupMode": "ScaleMode"
+  }
+}

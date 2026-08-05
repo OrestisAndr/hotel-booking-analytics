@@ -20,15 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "db_hotel_bookings"
+                      "Entity": "Hotel"
                     }
                   },
                   "Property": "hotel"
                 }
               },
-              "queryRef": "db_hotel_bookings.hotel",
-              "nativeQueryRef": "Hotel Filter",
-              "displayName": "Hotel Filter"
+              "queryRef": "Hotel.hotel",
+              "nativeQueryRef": "hotel"
             }
           ]
         }

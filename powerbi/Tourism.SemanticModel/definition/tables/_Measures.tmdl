@@ -152,6 +152,31 @@ table _Measures
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure 'Bookings Scored' = SUM(monthly_accuracy[bookings])
+		formatString: 0
+		lineageTag: fe74c2ba-6436-4eee-a3fa-23b96861d569
+
+	measure 'Predicted Cancellations' = SUM(monthly_accuracy[predicted_cancellations])
+		lineageTag: 8e1ad268-792d-409b-b0ba-81a9aed45621
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Actual Cancellations' = SUM(monthly_accuracy[actual_cancellations])
+		formatString: 0
+		lineageTag: d1ac9850-6b59-48a9-b11c-616981ddbc15
+
+	measure 'Revenue At Risk' = SUM(monthly_accuracy[revenue_at_risk])
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: 868158bb-7858-4db3-a058-f092989bf0e9
+
+	measure 'Rooms To Release' = SUM(nightly_forecast[rooms_to_release])
+		formatString: 0
+		lineageTag: a2ea6b10-f68f-48c8-9fb2-01c3b656323f
+
+	measure 'Forecast Accuracy %' = 1 - DIVIDE(ABS([Predicted Cancellations] - [Actual Cancellations]), [Actual Cancellations])
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 23b3b306-3f4d-4d76-8bde-b3fc644ebe38
+
 	column Value
 		formatString: 0
 		lineageTag: 4c27783d-2ad5-4e12-9d6a-19e0d105e0df

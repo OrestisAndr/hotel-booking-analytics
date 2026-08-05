@@ -1,0 +1,307 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "3169e06bb9e3d221215e",
+  "position": {
+    "x": 28.558253424657469,
+    "y": 31.432081911262792,
+    "z": 1000,
+    "height": 257.13583617747435,
+    "width": 533.883493150685,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "call_list"
+                    }
+                  },
+                  "Property": "arrival_date"
+                }
+              },
+              "queryRef": "call_list.arrival_date",
+              "nativeQueryRef": "arrival_date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "call_list"
+                    }
+                  },
+                  "Property": "hotel"
+                }
+              },
+              "queryRef": "call_list.hotel",
+              "nativeQueryRef": "hotel"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "call_list"
+                    }
+                  },
+                  "Property": "market_segment"
+                }
+              },
+              "queryRef": "call_list.market_segment",
+              "nativeQueryRef": "segment",
+              "displayName": "segment"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "call_list"
+                    }
+                  },
+                  "Property": "country"
+                }
+              },
+              "queryRef": "call_list.country",
+              "nativeQueryRef": "country"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "call_list"
+                        }
+                      },
+                      "Property": "booking_value"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(call_list.booking_value)",
+              "nativeQueryRef": "booking_value",
+              "displayName": "booking_value"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "call_list"
+                        }
+                      },
+                      "Property": "cancel_probability"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(call_list.cancel_probability)",
+              "nativeQueryRef": "cancel_probability",
+              "displayName": "cancel_probability"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "call_list"
+                        }
+                      },
+                      "Property": "expected_loss"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(call_list.expected_loss)",
+              "nativeQueryRef": "expected_loss",
+              "displayName": "expected_loss"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "84.2512424028985D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "call_list.arrival_date"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "59.350799806612685D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "call_list.hotel"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "75.06938964434813D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "call_list.market_segment"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "75.91500119535004D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(call_list.booking_value)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "66.19083969465649D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(call_list.cancel_probability)"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {}
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Predicted vs actual cancellations by arrival month'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D3461'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "' by Month and Hotel'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "ef66cdd06b0275190c46"
+}

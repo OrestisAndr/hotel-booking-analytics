@@ -5,7 +5,7 @@
       "ordinal": 0,
       "scrollPosition": {
         "x": 0,
-        "y": 43
+        "y": 9
       },
       "nodes": [
         {
@@ -19,7 +19,7 @@
             "height": 300,
             "width": 234
           },
-          "zIndex": 1
+          "zIndex": 2
         },
         {
           "location": {
@@ -32,18 +32,70 @@
             "height": 308,
             "width": 243
           },
-          "zIndex": 2
+          "zIndex": 3
         },
         {
           "location": {
-            "x": 368,
-            "y": 43
+            "x": 719,
+            "y": 9
           },
           "nodeIndex": "_Measures",
           "nodeLineageTag": "38b83af0-7a06-4d6e-b410-139ef3d25d06",
           "size": {
             "height": 383,
             "width": 251
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 584,
+            "y": 446.5625
+          },
+          "nodeIndex": "Hotel",
+          "nodeLineageTag": "a90e9eba-39b8-4962-8559-ddbcca97c7e9",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 370,
+            "y": 17.5625
+          },
+          "nodeIndex": "nightly_forecast",
+          "nodeLineageTag": "4cfa227c-316e-4809-a9c0-02c49fc3a7f6",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 927,
+            "y": 419.5625
+          },
+          "nodeIndex": "monthly_accuracy",
+          "nodeLineageTag": "6986b46e-28a9-48fd-8306-6bdedd9f5336",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 300.5,
+            "y": 602.5625
+          },
+          "nodeIndex": "call_list",
+          "nodeLineageTag": "a957ba96-4338-4bb8-9945-efcf8b330c7f",
+          "size": {
+            "height": 300,
+            "width": 234
           },
           "zIndex": 0
         }

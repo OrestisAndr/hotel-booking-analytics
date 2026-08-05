@@ -1,0 +1,82 @@
+table monthly_accuracy
+	lineageTag: 6986b46e-28a9-48fd-8306-6bdedd9f5336
+
+	column month
+		dataType: string
+		lineageTag: aeb0bfca-f2b6-4c04-b28a-91fa1fe07e8a
+		summarizeBy: none
+		sourceColumn: month
+
+		annotation SummarizationSetBy = Automatic
+
+	column month_start
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 64dc062a-107f-4f3c-a38a-1019720c2232
+		summarizeBy: none
+		sourceColumn: month_start
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column hotel
+		dataType: string
+		lineageTag: dd696bcd-1635-40ff-b0a6-9272d5e96b7d
+		summarizeBy: none
+		sourceColumn: hotel
+
+		annotation SummarizationSetBy = Automatic
+
+	column bookings
+		dataType: int64
+		formatString: 0
+		lineageTag: bc7cf884-4a89-4cee-9901-f32a20d43949
+		summarizeBy: sum
+		sourceColumn: bookings
+
+		annotation SummarizationSetBy = Automatic
+
+	column predicted_cancellations
+		dataType: double
+		lineageTag: 5f0af38c-4a8a-4cb7-a2d0-32f9fa0180a6
+		summarizeBy: sum
+		sourceColumn: predicted_cancellations
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column actual_cancellations
+		dataType: int64
+		formatString: 0
+		lineageTag: 9052028a-7740-4f8c-a3c7-157fd8a9acfc
+		summarizeBy: sum
+		sourceColumn: actual_cancellations
+
+		annotation SummarizationSetBy = Automatic
+
+	column revenue_at_risk
+		dataType: double
+		lineageTag: 52ff384c-f771-4a08-8155-96615a74d8aa
+		summarizeBy: sum
+		sourceColumn: revenue_at_risk
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition monthly_accuracy = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("\\Mac\iCloud\Documents\Data_Analyst\Projects\inProgress\hotel-booking-analytics\outputs\monthly_accuracy.csv"),[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"month", type text}, {"month_start", type date}, {"hotel", type text}, {"bookings", Int64.Type}, {"predicted_cancellations", type number}, {"actual_cancellations", Int64.Type}, {"revenue_at_risk", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

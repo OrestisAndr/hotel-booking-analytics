@@ -1,9 +1,32 @@
-relationship 95aa15a1-687c-4df5-b177-5ee6cc6afaad
-	joinOnDateBehavior: datePartOnly
-	fromColumn: Calendar.Date
-	toColumn: LocalDateTable_609b04fc-9387-4e68-9396-31079574ea58.Date
-
 relationship 07ecebcd-3eb9-734a-1c31-1aaf6f409dea
 	fromColumn: db_hotel_bookings.'Arrival Date'
 	toColumn: Calendar.Date
+
+relationship e7123c92-8fd5-36f4-d870-2d47c1048276
+	fromColumn: db_hotel_bookings.hotel
+	toColumn: Hotel.hotel
+
+relationship fa4276ca-a074-c3ad-bd26-60b867f136c8
+	fromColumn: nightly_forecast.night
+	toColumn: Calendar.Date
+
+relationship 5229ac74-8913-03e1-5aa5-7cd3dfdec534
+	fromColumn: nightly_forecast.hotel
+	toColumn: Hotel.hotel
+
+relationship 516f1ca7-e908-9e7a-aac2-6d0a7595e5a3
+	fromColumn: monthly_accuracy.month_start
+	toColumn: Calendar.Date
+
+relationship c1737119-7cfe-e6c0-86ad-341e66f27b18
+	fromColumn: monthly_accuracy.hotel
+	toColumn: Hotel.hotel
+
+relationship e7e3f101-d527-8f57-9199-873fc3bccad2
+	fromColumn: call_list.arrival_date
+	toColumn: Calendar.Date
+
+relationship 5d300601-4dea-2ebe-c1ba-86d6f8894eb2
+	fromColumn: call_list.hotel
+	toColumn: Hotel.hotel
 

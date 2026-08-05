@@ -8,11 +8,6 @@ table Calendar
 		isNameInferred
 		sourceColumn: [Date]
 
-		variation Variation
-			isDefault
-			relationship: 95aa15a1-687c-4df5-b177-5ee6cc6afaad
-			defaultHierarchy: LocalDateTable_609b04fc-9387-4e68-9396-31079574ea58.'Date Hierarchy'
-
 		annotation SummarizationSetBy = Automatic
 
 	column Year

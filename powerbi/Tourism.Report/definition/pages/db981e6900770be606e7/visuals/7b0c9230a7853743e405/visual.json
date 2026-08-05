@@ -3,9 +3,9 @@
   "name": "7b0c9230a7853743e405",
   "position": {
     "x": 0,
-    "y": 236.92519185385893,
-    "z": 2000,
-    "height": 33.662549310957672,
+    "y": 286,
+    "z": 1375,
+    "height": 33,
     "width": 24,
     "tabOrder": 3000
   },
@@ -27,7 +27,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'earning (1).png'"
+                      "Value": "'forecast-analytics-2.png'"
                     }
                   }
                 },
@@ -36,7 +36,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "earning_(1)45327964002676.png"
+                      "ItemName": "forecast-analytics-25243275369925982.png"
                     }
                   }
                 },
@@ -133,7 +133,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Revenue icon'"
+                  "Value": "'Forecast icon'"
                 }
               }
             }

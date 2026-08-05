@@ -1,22 +1,24 @@
 model Model
 	culture: en-US
 	defaultPowerBIDataSourceVersion: powerBI_V3
-	sourceQueryCulture: el-GR
+	sourceQueryCulture: en-US
 	dataAccessOptions
 		legacyRedirects
 		returnErrorValuesAsNull
 
-annotation __PBI_TimeIntelligenceEnabled = 1
+annotation __PBI_TimeIntelligenceEnabled = 0
 
-annotation PBI_QueryOrder = ["db_hotel_bookings"]
+annotation PBI_QueryOrder = ["db_hotel_bookings","nightly_forecast","monthly_accuracy","call_list"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
 ref table db_hotel_bookings
-ref table DateTableTemplate_26d34491-8859-4d8f-ba63-3d2bb36b7144
 ref table Calendar
-ref table LocalDateTable_609b04fc-9387-4e68-9396-31079574ea58
 ref table _Measures
+ref table Hotel
+ref table nightly_forecast
+ref table monthly_accuracy
+ref table call_list
 
 ref cultureInfo en-US
 
